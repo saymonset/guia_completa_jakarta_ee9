@@ -71,6 +71,7 @@ public class CategoriaRepositorioImpl implements Repositorio<Categoria> {
             stmt.executeUpdate();
 
             if (categoria.getId() == null) {
+                //aqui declaro un rs y lo cierro para obtener el id generado
                 try (ResultSet rs = stmt.getGeneratedKeys()) {
                     if (rs.next()) {
                         categoria.setId(rs.getLong(1));
