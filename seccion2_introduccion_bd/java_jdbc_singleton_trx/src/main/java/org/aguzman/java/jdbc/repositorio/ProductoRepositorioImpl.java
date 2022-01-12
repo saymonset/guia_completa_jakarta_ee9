@@ -8,7 +8,7 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-//Crear un id de retorn al insertar registros
+//Crear un id de retorn al insertar registros Seccion2 -> 24
 public class ProductoRepositorioImpl implements Repositorio<Producto>{
 
     private Connection getConnection() throws SQLException {
