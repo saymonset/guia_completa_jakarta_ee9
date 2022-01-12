@@ -12,6 +12,7 @@ import java.util.Date;
 
 public class EjemploJdbcUpdate {
     public static void main(String[] args) {
+        //Singleton es una conexion dentro del contexto
         try (Connection conn = ConexionBaseDatos.getInstance()) {
 
             Repositorio<Producto> repositorio = new ProductoRepositorioImpl();
@@ -23,7 +24,7 @@ public class EjemploJdbcUpdate {
 
             System.out.println("============= editar producto =============");
             Producto producto = new Producto();
-            producto.setId(5L);
+            producto.setId(3L);
             producto.setNombre("Teclado Cosair k95 mecánico");
             producto.setPrecio(700);
             Categoria categoria = new Categoria();

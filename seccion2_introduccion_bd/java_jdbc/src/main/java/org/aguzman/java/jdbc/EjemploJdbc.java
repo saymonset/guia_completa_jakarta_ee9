@@ -11,6 +11,11 @@ import java.util.Date;
 
 public class EjemploJdbc {
     public static void main(String[] args) {
+        //Se coloca dentro del try () la coneccion para que la cierre auomaticamente
+        //Seccion 2 -> 12
+        //El dao y repositorio es lo mismo
+        //Conceptual . DAO es una fraccion de los datos de la persistencia
+        //Repositorio es una fraccion de una coleccion de objetos
         try (Connection conn = ConexionBaseDatos.getInstance()) {
 
             Repositorio<Producto> repositorio = new ProductoRepositorioImpl();

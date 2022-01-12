@@ -6,9 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="java_jdbc_singleton_trx" />
         <module name="java_jdbc" />
+        <module name="java_jdbc_singleton_trx" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="java_jdbc" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

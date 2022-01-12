@@ -32,7 +32,7 @@ public class EjemploJdbcTrx {
                 Categoria categoria = new Categoria();
                 categoria.setId(3L);
                 producto.setCategoria(categoria);
-                producto.setSku("abcde12345");
+                producto.setSku("abcdef12345");
                 repositorio.guardar(producto);
                 System.out.println("Producto guardado con éxito");
 
@@ -41,7 +41,7 @@ public class EjemploJdbcTrx {
                 producto.setId(5L);
                 producto.setNombre("Teclado Cosair k95 mecánico");
                 producto.setPrecio(1000);
-                producto.setSku("abcdef1234");
+                producto.setSku("bcdef1234");
                 categoria = new Categoria();
                 categoria.setId(2L);
                 producto.setCategoria(categoria);

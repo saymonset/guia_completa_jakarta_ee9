@@ -1,5 +1,5 @@
 package org.aguzman.java.jdbc.modelo;
-
+//alt + insert -> getter and setter
 import java.util.Date;
 
 public class Producto {

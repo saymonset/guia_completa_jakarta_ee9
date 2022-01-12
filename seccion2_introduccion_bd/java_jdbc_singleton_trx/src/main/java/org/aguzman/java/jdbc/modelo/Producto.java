@@ -68,6 +68,7 @@ public class Producto {
         this.sku = sku;
     }
 
+
     @Override
     public String toString() {
         return  id +

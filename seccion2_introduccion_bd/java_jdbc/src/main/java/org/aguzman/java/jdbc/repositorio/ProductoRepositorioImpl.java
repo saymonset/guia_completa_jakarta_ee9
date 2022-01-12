@@ -18,7 +18,9 @@ public class ProductoRepositorioImpl implements Repositorio<Producto>{
     public List<Producto> listar() {
         List<Producto> productos = new ArrayList<>();
 
+        //dentro del try el statement para que haga el cierre automaticamente
         try (Statement stmt = getConnection().createStatement();
+//             El categoria_id viene por default en el rs
              ResultSet rs = stmt.executeQuery("SELECT p.*, c.nombre as categoria FROM productos as p " +
                      "inner join categorias as c ON (p.categoria_id = c.id)")) {
             while (rs.next()) {
@@ -45,6 +47,9 @@ public class ProductoRepositorioImpl implements Repositorio<Producto>{
                     producto = crearProducto(rs);
                 }
             }
+
+
+
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -59,6 +64,7 @@ public class ProductoRepositorioImpl implements Repositorio<Producto>{
         } else {
             sql = "INSERT INTO productos(nombre, precio, categoria_id, fecha_registro) VALUES(?,?,?,?)";
         }
+
         try (PreparedStatement stmt = getConnection().prepareStatement(sql)) {
             stmt.setString(1, producto.getNombre());
             stmt.setLong(2, producto.getPrecio());
