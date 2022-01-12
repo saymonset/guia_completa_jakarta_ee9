@@ -28,9 +28,11 @@ public class CategoriaRepositorioImpl implements Repositorio<Categoria> {
     public List<Categoria> listar() throws SQLException {
         List<Categoria> categorias = new ArrayList<>();
         try (Statement stmt = conn.createStatement();
+             //ES statements porque no hay parametros
              ResultSet rs = stmt.executeQuery("SELECT * FROM categorias")) {
             while (rs.next()) {
                 categorias.add(crearCategoria(rs));
+                 //ctrl + alt + v, se coloca new Categoria y te lo expande
             }
         }
         return categorias;
@@ -39,6 +41,7 @@ public class CategoriaRepositorioImpl implements Repositorio<Categoria> {
     @Override
     public Categoria porId(Long id) throws SQLException {
         Categoria categoria = null;
+        // es prepared statement porque hay parametros
         try (PreparedStatement stmt = conn.prepareStatement("SELECT * FROM categorias as c WHERE c.id=?")) {
             stmt.setLong(1, id);
             try (ResultSet rs = stmt.executeQuery()) {
@@ -59,6 +62,7 @@ public class CategoriaRepositorioImpl implements Repositorio<Categoria> {
             sql = "INSERT INTO categorias(nombre) VALUES(?)";
         }
         //devolvemos el key generado , seccion 2 -> 24 try (PreparedStatement stmt = conn.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS)) {
+        //ctrl + shift + tecla abajo y mueves el metodo en intelljidea
         try (PreparedStatement stmt = conn.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS)) {
             stmt.setString(1, categoria.getNombre());
             if (categoria.getId() != null && categoria.getId() > 0) {

@@ -55,14 +55,14 @@
       <file leaf-file-name="CategoriaRepositorioImpl.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/aguzman/java/jdbc/repositorio/CategoriaRepositorioImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1624">
-              <caret line="60" column="52" lean-forward="false" selection-start-line="60" selection-start-column="52" selection-end-line="60" selection-end-column="52" />
+            <state relative-caret-position="1145">
+              <caret line="64" column="8" lean-forward="false" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="70" />
               <folding>
-                <marker date="1641993414787" expanded="true" signature="769:793" ph="SELECT * FRO... categorias" />
-                <marker date="1641993414787" expanded="true" signature="1110:1152" ph="SELECT * FRO... categorias" />
-                <marker date="1641993414787" expanded="true" signature="1604:1645" ph="UPDATE categ... " />
-                <marker date="1641993414787" expanded="true" signature="1684:1724" ph="INSERT INTO categorias... " />
-                <marker date="1641993414787" expanded="true" signature="2545:2578" ph="DELETE FROM " />
+                <marker date="1641994261086" expanded="true" signature="823:847" ph="SELECT * FRO... categorias" />
+                <marker date="1641994261086" expanded="true" signature="1294:1336" ph="SELECT * FRO... categorias" />
+                <marker date="1641994261086" expanded="true" signature="1788:1829" ph="UPDATE categ... " />
+                <marker date="1641994261086" expanded="true" signature="1868:1908" ph="INSERT INTO categorias... " />
+                <marker date="1641994261086" expanded="true" signature="2895:2928" ph="DELETE FROM " />
               </folding>
             </state>
           </provider>
@@ -873,12 +873,12 @@
       <workItem from="1641986544704" duration="99000" />
       <workItem from="1641986723522" duration="145000" />
       <workItem from="1641986893597" duration="1147000" />
-      <workItem from="1641993279578" duration="135000" />
+      <workItem from="1641993279578" duration="1175000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1741000" />
+    <option name="totallyTimeSpent" value="2781000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="11688" y="-18" width="5610" height="3276" extended-state="6" />
@@ -895,7 +895,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32981676" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43838453" sideWeight="0.49783424" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33814546" sideWeight="0.49783424" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3379358" sideWeight="0.49783424" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2820513" sideWeight="0.48509935" order="8" side_tool="false" content_ui="combo" />
@@ -1091,14 +1091,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/aguzman/java/jdbc/repositorio/CategoriaRepositorioImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1624">
-          <caret line="60" column="52" lean-forward="false" selection-start-line="60" selection-start-column="52" selection-end-line="60" selection-end-column="52" />
+        <state relative-caret-position="1145">
+          <caret line="64" column="8" lean-forward="false" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="70" />
           <folding>
-            <marker date="1641993414787" expanded="true" signature="769:793" ph="SELECT * FRO... categorias" />
-            <marker date="1641993414787" expanded="true" signature="1110:1152" ph="SELECT * FRO... categorias" />
-            <marker date="1641993414787" expanded="true" signature="1604:1645" ph="UPDATE categ... " />
-            <marker date="1641993414787" expanded="true" signature="1684:1724" ph="INSERT INTO categorias... " />
-            <marker date="1641993414787" expanded="true" signature="2545:2578" ph="DELETE FROM " />
+            <marker date="1641994261086" expanded="true" signature="823:847" ph="SELECT * FRO... categorias" />
+            <marker date="1641994261086" expanded="true" signature="1294:1336" ph="SELECT * FRO... categorias" />
+            <marker date="1641994261086" expanded="true" signature="1788:1829" ph="UPDATE categ... " />
+            <marker date="1641994261086" expanded="true" signature="1868:1908" ph="INSERT INTO categorias... " />
+            <marker date="1641994261086" expanded="true" signature="2895:2928" ph="DELETE FROM " />
           </folding>
         </state>
       </provider>
