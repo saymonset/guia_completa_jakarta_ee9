@@ -19,13 +19,13 @@ public class EjemploJdbc {
         System.out.println("============= listar =============");
         servicio.listar().forEach(System.out::println);
         Categoria categoria = new Categoria();
-        categoria.setNombre("Iluminación");
+        categoria.setNombre("Natacion");
 
         Producto producto = new Producto();
         producto.setNombre("Lámpara led escritorio");
         producto.setPrecio(990);
         producto.setFechaRegistro(new Date());
-        producto.setSku("abcdefgh12");
+        producto.setSku("abcd2t");
         servicio.guardarProductoConCategoria(producto, categoria);
         System.out.println("Producto guardado con éxito: " + producto.getId());
         servicio.listar().forEach(System.out::println);
