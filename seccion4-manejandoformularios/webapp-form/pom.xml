@@ -11,7 +11,9 @@
     <properties>
         <maven.compiler.source>16</maven.compiler.source>
         <maven.compiler.target>16</maven.compiler.target>
+        <!--plugin maven:una coNfiguracion de maven para uft8-->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <!--plugin maven:Para crear tdos los proyectos en ese juego de caracteres-->
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
     <dependencies>
@@ -23,6 +25,8 @@
         </dependency>
     </dependencies>
     <build>
+        <!--Este es el nombre del war que finalmente queremos que se llame-->
+        <!--Es una variable propia de maven ${project.artifactId}-->
         <finalName>${project.artifactId}</finalName>
         <plugins>
             <plugin>

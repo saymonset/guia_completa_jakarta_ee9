@@ -55,6 +55,7 @@ public class FormServlet extends HttpServlet {
             errores.put("idioma", "debe seleccionar un idioma!");
         }
         if (errores.isEmpty()) {
+            //el out hace un close automatico
             try (PrintWriter out = resp.getWriter()) {
 
                 out.println("<!DOCTYPE html>");

@@ -1,3 +1,4 @@
+<%--directiva--%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@page import="java.util.Map"%>
 <%
@@ -28,7 +29,8 @@ if(errores != null && errores.size()>0){
   <div class="row mb-3">
     <label for="username" class="col-form-label col-sm-2">Usuario</label>
     <div class="col-sm-4">
-        <input type="text" name="username" id="username" class="form-control" value="${param.username}">
+        <input type="text" name="username" id="username"
+               class="form-control" value="${param.username}">
     </div>
 
   </div>
@@ -142,7 +144,8 @@ if(errores != null && errores.size()>0){
   <div class="row mb-3">
     <label for="habilitar" class="col-form-label col-sm-2">Habilitar</label>
     <div class="form-check col-sm-2">
-      <input type="checkbox" name="habilitar" id="habilitar" checked class="form-check-input">
+      <input type="checkbox" name="habilitar" id="habilitar" checked
+             class="form-check-input">
     </div>
   </div>
   <div class="row mb-3">

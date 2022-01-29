@@ -9,5 +9,8 @@
         <module name="webapp-form" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="webapp-form" target="16" />
+    </bytecodeTargetLevel>
   </component>
 </project>
