@@ -23,6 +23,8 @@
         </dependency>
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
+            <!--Nos permite convertir cualquier objeto o cualquier list o
+            collections de objetos  en una structura json de forma automatica-->
             <artifactId>jackson-databind</artifactId>
             <version>2.12.3</version>
         </dependency>

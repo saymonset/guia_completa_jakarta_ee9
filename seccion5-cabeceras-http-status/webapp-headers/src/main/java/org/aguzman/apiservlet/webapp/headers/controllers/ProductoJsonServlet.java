@@ -19,6 +19,8 @@ import java.util.List;
 public class ProductoJsonServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        /*Aqui recibimos un objeto inputStream tipo son
+        y lo convertimosen objeto*/
         ServletInputStream jsonStream = req.getInputStream();
         ObjectMapper mapper = new ObjectMapper();
         Producto producto = mapper.readValue(jsonStream, Producto.class);

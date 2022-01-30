@@ -9,5 +9,8 @@
         <module name="webapp-headers" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="webapp-headers" target="16" />
+    </bytecodeTargetLevel>
   </component>
 </project>
