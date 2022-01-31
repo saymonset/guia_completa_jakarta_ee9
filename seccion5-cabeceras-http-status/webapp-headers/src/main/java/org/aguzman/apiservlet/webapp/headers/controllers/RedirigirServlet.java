@@ -12,6 +12,9 @@ import java.io.IOException;
 public class RedirigirServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        /*Esto es lo mismo que lo que esta abajo, reescribe el header en
+                la location y coloca status a pag found> es
+                lo mismo que sendRedirect*/
         //resp.setHeader("Location", req.getContextPath() + "/productos.html");
         //resp.setStatus(HttpServletResponse.SC_FOUND);
         resp.sendRedirect(req.getContextPath() + "/productos.html");
