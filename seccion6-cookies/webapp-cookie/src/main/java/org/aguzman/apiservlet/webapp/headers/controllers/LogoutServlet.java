@@ -1,3 +1,8 @@
+//intelljidea
+//shift + f6 ->  renombra variable para odo
+//ctrl + alt + v -> Parado en una variable, crea
+//el new e referencia
+
 package org.aguzman.apiservlet.webapp.headers.controllers;
 
 import jakarta.servlet.ServletException;
