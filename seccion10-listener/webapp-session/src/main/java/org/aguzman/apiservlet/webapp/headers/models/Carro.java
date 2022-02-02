@@ -12,8 +12,6 @@ public class Carro {
     }
 
     public void addItemCarro(ItemCarro itemCarro) {
-        //contains compara cada elemento del areglo con el item usando la
-        //implementacion del equals en  itemCarro
         if (items.contains(itemCarro)) {
             Optional<ItemCarro> optionalItemCarro = items.stream()
                     .filter(i -> i.equals(itemCarro))

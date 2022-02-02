@@ -28,7 +28,6 @@ public class ItemCarro {
     }
 
     @Override
-    //Los equals se utilizan en el contain
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
