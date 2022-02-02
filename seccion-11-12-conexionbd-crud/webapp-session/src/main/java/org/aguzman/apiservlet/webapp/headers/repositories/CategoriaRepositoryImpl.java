@@ -30,6 +30,8 @@ public class CategoriaRepositoryImpl implements Repository<Categoria>{
     @Override
     public Categoria porId(Long id) throws SQLException {
         Categoria categoria = null;
+        //Dos try pra cierre automatico tanto del PreparedStstement como
+        //del ResultSet
         try (PreparedStatement stmt = conn.prepareStatement("select * from categorias as c where c.id=?")) {
             stmt.setLong(1, id);
             try (ResultSet rs = stmt.executeQuery()) {
