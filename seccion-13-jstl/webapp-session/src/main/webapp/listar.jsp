@@ -12,6 +12,7 @@
 <%--como este user name solo esta en el contexto requestScope, se puede omitir
 el requestScope--%>
 <c:if test="${username.present}">
+    <%--La etiqueta <c:out test="$username.get()" /> se uede quitar y colocar de forma directa--%>
    <div>Hola ${username.get()}, bienvenido!</div>
    <p><a href="${pageContext.request.contextPath}/productos/form">crear [+]</a></p>
 </c:if>
