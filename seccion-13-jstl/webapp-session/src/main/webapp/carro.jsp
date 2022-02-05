@@ -9,7 +9,7 @@
 <body>
 <h1>Carro de Compras</h1>
 
-<%--El c:choose, un if si se cumple la condicion con c:when, si no es con c:otherwise--%>
+<%-- git commit -am"El c:choose, un if si se cumple la condicion con c:when, si no es con c:otherwise"--%>
 <c:choose>
 
 <c:when test="${sessionScope.carro == null || sessionScope.carro.items.isEmpty()}">
