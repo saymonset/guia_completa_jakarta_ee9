@@ -1,5 +1,9 @@
 <Context>
 
+    <!--type: datsource que es conexion a bd-->
+    <!--maxTotal, maximo total de conexiones que se pueden crear-->
+    <!--maxIdle:Maxima conexiones que estarian inactivas-->
+    <!--maxWaitMillis, maxima conexion de tiempo que nuestra aplicacion va a esperar una disponible-->
     <Resource name="jdbc/mysqlDB" auth="Container" type="javax.sql.DataSource"
               maxTotal="100" maxIdle="30" maxWaitMillis="10000"
               username="root" password="sasa" driverClassName="com.mysql.cj.jdbc.Driver"
