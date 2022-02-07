@@ -5,7 +5,7 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpSession;
 
 import java.util.Optional;
-
+/*Esta si esta anotada con ApplicationScoped y cu[le con el bean.xml*/
 @ApplicationScoped
 public class LoginServiceSessionImpl implements LoginService{
     @Override

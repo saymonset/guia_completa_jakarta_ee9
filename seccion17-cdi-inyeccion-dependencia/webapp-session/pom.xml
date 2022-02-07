@@ -32,6 +32,7 @@
             <version>2.0.0</version>
         </dependency>
         <dependency>
+            <!--Esta dependencia integra weldcdi,todo el api de ineccion de dependencoa con tomcat-->
             <groupId>org.jboss.weld.servlet</groupId>
             <artifactId>weld-servlet-core</artifactId>
             <version>4.0.1.SP1</version>

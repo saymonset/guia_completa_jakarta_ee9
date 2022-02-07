@@ -17,7 +17,7 @@ import javax.sql.DataSource;
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.logging.Logger;
-
+/*Hay que darle cuaquier contexto porque en el bean.xml colocamos clases anotadas solamente*/
 @ApplicationScoped
 public class ProducerResources {
 
@@ -42,6 +42,7 @@ public class ProducerResources {
         return Logger.getLogger(injectionPoint.getMember().getDeclaringClass().getName());
     }
 
+    /*La forma cdi con dispose para cerrar la conexion con bd*/
     public void close(@Disposes @MysqlConn Connection connection) throws SQLException {
         connection.close();
         log.info("cerrando la conexion a la bbdd mysql!");

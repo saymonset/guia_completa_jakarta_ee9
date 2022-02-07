@@ -14,6 +14,8 @@ import java.util.List;
 import java.util.Optional;
 
 @Service
+/*Como es la unica con anotacion, no importa si tiene el identificador qualifier o no*/
+/*va a injectarse porque esta anotada y es lo que reglamenta el bean.xm*/
 @ProductoServicePrincipal
 public class ProductoServiceJdbcImpl implements ProductoService{
     @Inject
