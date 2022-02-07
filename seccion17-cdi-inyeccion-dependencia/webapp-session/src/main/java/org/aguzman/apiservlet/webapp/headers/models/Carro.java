@@ -15,12 +15,12 @@ import java.util.logging.Logger;
 public class Carro implements Serializable {
     private List<ItemCarro> items;
 
-    git commit -am"seccion17->121 Ciclo de vida beans /* Estamos injectando un objeto logger en una clse de session, @carroCompra es de"
+     /*seccion17->121 Ciclo de vida beans *//* Estamos injectando un objeto logger en una clse de session, @carroCompra es de"
             objeto session e implementa serializable. El logger no es
             serializable, no se puede guardar en la session, no es compatible directamente
            entonces agregamos un moduificador de java llamado Transient, de esa forma  injectamos
-    el logger pero no formara parte de la session pero si lopodemos usar para imprmir datos en el log*/
-    /*Se uso Transiente para Logger log, porque la clase es serializable y es scopsession o si es conversationScope*/"
+    el logger pero no formara parte de la session pero si lopodemos usar para imprmir datos en el log*//*
+    *//*Se uso Transiente para Logger log, porque la clase es serializable y es scopsession o si es conversationScope*//*"*/
     @Inject
     private transient Logger log;
 
