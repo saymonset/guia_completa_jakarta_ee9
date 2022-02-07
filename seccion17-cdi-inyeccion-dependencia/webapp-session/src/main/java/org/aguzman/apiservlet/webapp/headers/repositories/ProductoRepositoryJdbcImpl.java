@@ -16,6 +16,8 @@ import java.util.logging.Logger;
 @Repository
 public class ProductoRepositoryJdbcImpl implements CrudRepository<Producto> {
 
+    /*Aca en el logger no va transient porque la clase no es serializable y porque @repository es de
+            alcance @requestScope*/
     @Inject
     private Logger log;
 

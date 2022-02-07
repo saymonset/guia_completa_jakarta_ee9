@@ -21,6 +21,8 @@ import java.util.logging.Logger;
 @ApplicationScoped
 public class ProducerResources {
 
+    /*a pesar que lo estamos produciendo con  @Produces , tamboen lo podemos injectar para
+    la misma clase  e injectarla para usarla*/
     @Inject
     private Logger log;
 
@@ -37,6 +39,8 @@ public class ProducerResources {
         return ds.getConnection();
     }
 
+    /*Con @Produces se registra en el contenedor cdi*/
+    /*Sin contexto, sera dependent y tomara el contexto donde lo llamamos*/
     @Produces
     private Logger beanLogger(InjectionPoint injectionPoint){
         return Logger.getLogger(injectionPoint.getMember().getDeclaringClass().getName());
