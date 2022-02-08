@@ -16,8 +16,8 @@
       <file leaf-file-name="HibernateQL.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/aguzman/hibernateapp/HibernateQL.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="28" column="35" lean-forward="true" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+            <state relative-caret-position="280">
+              <caret line="32" column="14" lean-forward="false" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -28,6 +28,13 @@
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/org/aguzman/hibernateapp/HibernateQL.java" />
+      </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -603,12 +610,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1644352799270</updated>
-      <workItem from="1644352804393" duration="1013000" />
+      <workItem from="1644352804393" duration="2151000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1013000" />
+    <option name="totallyTimeSpent" value="2151000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="12948" y="2568" width="3364" height="2196" extended-state="0" />
@@ -672,8 +679,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/aguzman/hibernateapp/HibernateQL.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="28" column="35" lean-forward="true" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+        <state relative-caret-position="280">
+          <caret line="32" column="14" lean-forward="false" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="14" />
           <folding />
         </state>
       </provider>

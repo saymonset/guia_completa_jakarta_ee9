@@ -30,6 +30,7 @@ public class HibernateQL {
         System.out.println(nombreCliente);
 
         System.out.println("========== consulta por campos personalizados ===========");
+        /*aqui se obtiene uno solo de una consulta mixta*/
         Object[] objetoCliente = em.createQuery("select c.id, c.nombre, c.apellido from Cliente c where c.id=:id", Object[].class)
                 .setParameter("id", 1L)
                 .getSingleResult();
@@ -40,6 +41,7 @@ public class HibernateQL {
 
         System.out.println("========== consulta por campos personalizados lista ===========");
         /*Cuando se quiere obtener datos de un objeto en object[]*/
+        /*aqui se tiene una lista de objetos mixtos*/
         List<Object[]> registros = em.createQuery("select c.id, c.nombre, c.apellido from Cliente c", Object[].class)
                 .getResultList();
         //for (Object[] reg : registros) {
