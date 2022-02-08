@@ -5,7 +5,7 @@
     <persistence-unit name="ejemploJPA" transaction-type="RESOURCE_LOCAL">
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
         <class>org.aguzman.hibernateapp.entity.Cliente</class>
-        <!--Forzamos de manera estricta que las   clases que esten aca son ls unicas que seran mapeadas-->
+        <!--git comit -am"Seccion18->18:Forzamos de manera estricta que las   clases que esten aca son ls unicas que seran mapeadas"-->
         <exclude-unlisted-classes>true</exclude-unlisted-classes>
         <properties>
             <property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/java_curso?serverTimezone=America/Santiago"/>
