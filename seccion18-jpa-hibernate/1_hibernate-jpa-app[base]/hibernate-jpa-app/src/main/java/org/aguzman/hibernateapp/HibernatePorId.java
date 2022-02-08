@@ -15,6 +15,8 @@ public class HibernatePorId {
         System.out.println("Ingrese el id: ");
         Long id = s.nextLong();
         EntityManager em = JpaUtil.getEntityManager();
+        /*em.find usa cache si es la misma consulta con el mismo id
+        * y guarda objeto en session*/
         Cliente cliente = em.find(Cliente.class, id);
         System.out.println(cliente);
 

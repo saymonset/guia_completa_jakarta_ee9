@@ -14,6 +14,7 @@ public class HibernateResultListWhere {
         Scanner s = new Scanner(System.in);
 
         EntityManager em = JpaUtil.getEntityManager();
+        //el parametro empieza en 1, y va despues del signo ?
         Query query = em.createQuery("select c from Cliente c where c.formaPago=?1", Cliente.class);
         System.out.println("Ingrese una forma de pago: ");
         String pago = s.next();

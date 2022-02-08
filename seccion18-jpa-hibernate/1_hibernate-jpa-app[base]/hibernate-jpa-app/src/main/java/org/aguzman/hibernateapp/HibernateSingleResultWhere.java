@@ -17,6 +17,8 @@ public class HibernateSingleResultWhere {
         System.out.println("Ingrese una forma de pago: ");
         String pago = s.next();
         query.setParameter(1, pago);
+        /*query.setMaxResults(1): De muchos registros que encuentre, solo me vas  a devolver 1 solo
+                pra que no de error en singleResult*/
         query.setMaxResults(1);
         Cliente c = (Cliente) query.getSingleResult();
         System.out.println(c);
