@@ -39,7 +39,7 @@ public class HibernateQL {
         System.out.println("id=" + id + ",nombre=" + nombre + ",apellido=" + apellido);
 
         System.out.println("========== consulta por campos personalizados lista ===========");
-        /*Cuando se quiere obtener datos de un objeto*/
+        /*Cuando se quiere obtener datos de un objeto en object[]*/
         List<Object[]> registros = em.createQuery("select c.id, c.nombre, c.apellido from Cliente c", Object[].class)
                 .getResultList();
         //for (Object[] reg : registros) {
