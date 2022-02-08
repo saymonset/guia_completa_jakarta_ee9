@@ -15,8 +15,6 @@ public class HibernateEliminar {
         EntityManager em = JpaUtil.getEntityManager();
         try {
 
-            /*atachamos al contexto jpa el cliente aa asi poder eliminarlo*/
-            /*Lo attachamos buscandolo con el metodo find*/
             Cliente cliente = em.find(Cliente.class, id);
             em.getTransaction().begin();
             em.remove(cliente);
