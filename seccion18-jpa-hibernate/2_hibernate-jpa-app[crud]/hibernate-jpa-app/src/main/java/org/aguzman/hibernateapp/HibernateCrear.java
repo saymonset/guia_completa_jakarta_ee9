@@ -23,9 +23,13 @@ public class HibernateCrear {
             c.setApellido(apellido);
             c.setFormaPago(pago);
             em.persist(c);
+            //Flush sincroniza los datos del objeto con los datos de base de datos
+            //El commit hace un flush al insertar.
             em.getTransaction().commit();
-
+            /*El commit, automaticamente llena el id del cliente al insertar con flush que es
+                    por defecto  lanzado*/
             System.out.println("el id del cliente registrado es " + c.getId());
+            /*con find, despues del commit, ya esta en el contexto jpa sincroniado y no lo busca de bd*/
             c = em.find(Cliente.class, c.getId());
             System.out.println(c);
         } catch (Exception e) {
