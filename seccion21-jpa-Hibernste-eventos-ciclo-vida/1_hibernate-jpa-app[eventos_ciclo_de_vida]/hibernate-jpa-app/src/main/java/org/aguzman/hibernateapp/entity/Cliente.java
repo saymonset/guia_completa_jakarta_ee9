@@ -17,6 +17,10 @@ public class Cliente {
     @Column(name="forma_pago")
     private String formaPago;
 
+    //Embedded y Embeddable, son dos anotaciones que trabajan conjunto,
+    //Nos permite desacoplar algun codigo que se repite y se pueda incrustar en
+    //las clases entitys para que se pueda reutilizar.
+    //Atributos que pueden ser repetibles y se puedan reutilizar
     @Embedded
     private Auditoria audit = new Auditoria();
 

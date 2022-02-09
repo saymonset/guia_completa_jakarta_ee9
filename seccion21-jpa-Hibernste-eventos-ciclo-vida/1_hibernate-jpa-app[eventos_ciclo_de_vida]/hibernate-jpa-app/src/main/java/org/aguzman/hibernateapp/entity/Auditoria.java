@@ -6,7 +6,8 @@ import jakarta.persistence.PrePersist;
 import jakarta.persistence.PreUpdate;
 
 import java.time.LocalDateTime;
-
+//Con esta anotacion significa que esta clase se pueda incluir en
+//cualquier entity  con Embedded
 @Embeddable
 public class Auditoria {
 
