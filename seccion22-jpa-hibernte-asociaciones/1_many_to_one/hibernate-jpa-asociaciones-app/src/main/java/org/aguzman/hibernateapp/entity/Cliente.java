@@ -7,6 +7,7 @@ import java.time.LocalDateTime;
 @Entity
 @Table(name="clientes")
 public class Cliente {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -20,8 +21,7 @@ public class Cliente {
     @Embedded
     private Auditoria audit = new Auditoria();
 
-    public Cliente() {
-    }
+    public Cliente() {}
 
     public Cliente(String nombre, String apellido) {
         this.nombre = nombre;
@@ -69,14 +69,13 @@ public class Cliente {
 
     @Override
     public String toString() {
-        /*Si audit puede nulo, validamos*/
         LocalDateTime creado = this.audit != null? audit.getCreadoEn():null;
         LocalDateTime editado = this.audit != null? audit.getEditadoEn(): null;
-        return "id=" + id +
+        return "{" + "id=" + id +
                 ", nombre='" + nombre + '\'' +
                 ", apellido='" + apellido + '\'' +
                 ", formaPago='" + formaPago+ '\'' +
                 ", creadoEn='" + creado + '\'' +
-                ", editadoEn='" + editado + '\'';
+                ", editadoEn='" + editado + '\'' + '}';
     }
 }
