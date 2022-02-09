@@ -26,8 +26,8 @@
       <file leaf-file-name="HibernateCriteriaBusquedaDinamica.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/aguzman/hibernateapp/HibernateCriteriaBusquedaDinamica.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1344">
-              <caret line="55" column="10" lean-forward="false" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="64" />
+            <state relative-caret-position="-952">
+              <caret line="32" column="61" lean-forward="false" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -582,15 +582,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1644419684798</updated>
-      <workItem from="1644419688046" duration="777000" />
+      <workItem from="1644419688046" duration="953000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="777000" />
+    <option name="totallyTimeSpent" value="953000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="12854" y="2493" width="3387" height="2169" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32981676" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -603,7 +604,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43864518" sideWeight="0.49783424" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32981676" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33798882" sideWeight="0.49783424" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33798882" sideWeight="0.49783424" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26845846" sideWeight="0.48509935" order="8" side_tool="false" content_ui="combo" />
@@ -650,8 +651,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/aguzman/hibernateapp/HibernateCriteriaBusquedaDinamica.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1344">
-          <caret line="55" column="10" lean-forward="false" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="64" />
+        <state relative-caret-position="-952">
+          <caret line="32" column="61" lean-forward="false" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="61" />
           <folding />
         </state>
       </provider>
