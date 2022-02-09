@@ -23,7 +23,15 @@ public class Cliente {
     private Auditoria audit = new Auditoria();
 
     @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true)
+    //JoinColumn es para mapear la foreign key de cliente en la tabla direcciones
     //@JoinColumn(name = "id_cliente")
+
+    //@JoinTable, personalizamos el nombre de la tabla intermedia,
+    /*configuramos el joinColumn que es el foreign principal que
+    es el cliente o id_cliente y esta se puede repetir*/
+    /*inverseJoinColumns es de la relacion opuesta que es id_direccion
+    * y esta si debe ser unica en la tabla*/
+    /*Para que sea unico la key de la relacion opuesta, colocamos uniqueConstraints = @UniqueConstraint(columnNames={"id_direccion"})*/
     @JoinTable(name = "tbl_clientes_direcciones", joinColumns = @JoinColumn(name="id_cliente")
     , inverseJoinColumns = @JoinColumn(name = "id_direccion")
     , uniqueConstraints = @UniqueConstraint(columnNames={"id_direccion"}))
