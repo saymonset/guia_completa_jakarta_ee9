@@ -18,7 +18,7 @@ public class Auditoria {
 
     @PrePersist
     public void prePersist() {
-        System.out.println("inicializar algo justo antes del persist");
+        System.out.println("inicializar  pre Persistalgo justo antes del persist");
         this.creadoEn = LocalDateTime.now();
     }
 
