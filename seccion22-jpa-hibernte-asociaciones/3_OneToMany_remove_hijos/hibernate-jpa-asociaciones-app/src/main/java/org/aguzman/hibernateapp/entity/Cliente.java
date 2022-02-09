@@ -26,7 +26,7 @@ public class Cliente {
     //JoinColumn es para mapear la foreign key de cliente en la tabla direcciones
     //@JoinColumn(name = "id_cliente")
 
-    //@JoinTable, personalizamos el nombre de la tabla intermedia,
+    //  @JoinTable, personalizamos el nombre de la tabla intermedia,
     /*configuramos el joinColumn que es el foreign principal que
     es el cliente o id_cliente y esta se puede repetir*/
     /*inverseJoinColumns es de la relacion opuesta que es id_direccion
