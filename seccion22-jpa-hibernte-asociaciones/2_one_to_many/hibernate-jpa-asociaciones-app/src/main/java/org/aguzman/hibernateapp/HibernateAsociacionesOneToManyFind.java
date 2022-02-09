@@ -19,6 +19,7 @@ public class HibernateAsociacionesOneToManyFind {
 
             cliente.getDirecciones().add(d1);
             cliente.getDirecciones().add(d2);
+            //Modificamos con merge
             em.merge(cliente);
 
             em.getTransaction().commit();

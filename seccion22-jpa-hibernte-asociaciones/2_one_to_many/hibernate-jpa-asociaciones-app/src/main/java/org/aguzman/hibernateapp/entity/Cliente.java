@@ -39,6 +39,11 @@ public class Cliente {
     el id de direccion, ambas foreignkey*/
 
     @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true)
+    //La tabla intermedia cliente_direcciones no la crea por esto:
+    //Si agregamos el nombre al foreignKey a traves de @JoinColumn(name = "id_cliente"),
+    //No va a crear la tabla cliente_direcciones, como lo propone hibernate,
+    //si no que va a crear direcciones y coloca la clve foranea id_cliente
+    //
     @JoinColumn(name = "id_cliente")
     private List<Direccion> direcciones;
 
