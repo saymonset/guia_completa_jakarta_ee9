@@ -73,6 +73,7 @@ public class HibernateQL {
         clientesDto.forEach(System.out::println);
 
         System.out.println("========== consulta con nombres de clientes ===========");
+        /*String.class es el tipo de dato que retorna*/
         List<String> nombres = em.createQuery("select c.nombre from Cliente c", String.class)
                         .getResultList();
         nombres.forEach(System.out::println);
@@ -108,6 +109,7 @@ public class HibernateQL {
 
         System.out.println("========== consulta para buscar por nombre ===========");
         String param = "NA";
+        /*Buena practica es convertir en mayuscula lo que se va a buscar y su parametro*/
         clientes = em.createQuery("select c from Cliente c where upper(c.nombre) like upper(:parametro)", Cliente.class)
                 .setParameter("parametro", "%" + param + "%")
                         .getResultList();
@@ -115,6 +117,7 @@ public class HibernateQL {
 
         System.out.println("========== consultas por rangos ==========");
 //        clientes = em.createQuery("select c from Cliente c where c.id between 2 and 5", Cliente.class).getResultList();
+        /*Buscamos por rango de caracteres.. Es de la J hsta la Q sin incluir la Q*/
         clientes = em.createQuery("select c from Cliente c where c.nombre between 'J' and 'Q'", Cliente.class).getResultList();
         clientes.forEach(System.out::println);
 
@@ -123,6 +126,8 @@ public class HibernateQL {
         clientes.forEach(System.out::println);
 
         System.out.println("=========== consulta con total de registros de la tabla ===========");
+        /*count el tipo siempre es Long*/
+        /*Siempre un unico resultado, el tipo devuelto es Long.class*/
         Long total = em.createQuery("select count(c) as total from Cliente c", Long.class).getSingleResult();
         System.out.println(total);
 
@@ -135,6 +140,7 @@ public class HibernateQL {
         System.out.println(maxId);
 
         System.out.println("=========== consulta con nombre y su largo ==========");
+        /*length es una funcion de JPA, calcula la cantidad de caracterez de un campo*/
         registros = em.createQuery("select c.nombre, length(c.nombre) from Cliente c", Object[].class).getResultList();
         registros.forEach(reg ->{
             String nom = (String) reg[0];
@@ -143,6 +149,7 @@ public class HibernateQL {
         });
 
         System.out.println("========== consulta con el nombre mas corto ==========");
+        /*Interesante usar el min y el length de jpa para consultar el nombre mas corto*/
         Integer minLargoNombre = em.createQuery("select min(length(c.nombre)) from Cliente c", Integer.class).getSingleResult();
         System.out.println(minLargoNombre);
 
@@ -150,6 +157,8 @@ public class HibernateQL {
         Integer maxLargoNombre = em.createQuery("select max(length(c.nombre)) from Cliente c", Integer.class).getSingleResult();
         System.out.println(maxLargoNombre);
 
+        /*Sacamos el promedio de la longitud de los nombres*/
+        /*Siempre sera un singleResult para calcular todo . Min, Max, Avg, sum, count*/
         System.out.println("========== consultas resumen funciones agregaciones count min max avg sum ==========");
         Object[] estadisticas = em.createQuery("select min(c.id), max(c.id), sum(c.id), count(c.id), avg(length(c.nombre)) from Cliente c", Object[].class)
                         .getSingleResult();
@@ -176,6 +185,7 @@ public class HibernateQL {
         System.out.println(ultimoCliente);
 
         System.out.println("========== consulta where in =========");
+        /*Colocamos parametros como Array de List*/
         clientes = em.createQuery("select c from Cliente c where c.id in :ids", Cliente.class)
                 .setParameter("ids", Arrays.asList(1L, 2L, 10L, 6L))
                 .getResultList();
