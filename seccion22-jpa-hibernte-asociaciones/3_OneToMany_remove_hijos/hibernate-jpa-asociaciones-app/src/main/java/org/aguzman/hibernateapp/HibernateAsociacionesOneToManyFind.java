@@ -26,6 +26,8 @@ public class HibernateAsociacionesOneToManyFind {
             System.out.println(cliente);
 
             em.getTransaction().begin();
+
+
             d1 = em.find(Direccion.class, 1L);
             cliente.getDirecciones().remove(d1);
             em.getTransaction().commit();
