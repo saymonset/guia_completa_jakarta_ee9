@@ -14,6 +14,8 @@ public class Factura {
 
     @ManyToOne
     @JoinColumn(name="id_cliente")
+    //Si no colocamos  un nombre en @JoinColumn(name="id_cliente"), toma el nombre
+    //del atributo, en este caso cliente y le suma el _id, y queda cliente_id
     private Cliente cliente;
 
     public Factura() {
