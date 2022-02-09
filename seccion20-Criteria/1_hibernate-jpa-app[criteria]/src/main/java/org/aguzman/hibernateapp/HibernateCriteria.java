@@ -13,38 +13,50 @@ public class HibernateCriteria {
 
         EntityManager em = JpaUtil.getEntityManager();
 
+        /*CriteriaBuilder nos permite crear  paso a paso nuestra consulta a hibernate*/
         CriteriaBuilder criteria = em.getCriteriaBuilder();
+
         CriteriaQuery<Cliente> query = criteria.createQuery(Cliente.class);
 
+        /*from  , es del tipo root, asociada a la tabla, equivale a from cliente*/
         Root<Cliente> from = query.from(Cliente.class);
 
+        /*equivale a un select*/
         query.select(from);
         List<Cliente> clientes = em.createQuery(query).getResultList();
         clientes.forEach(System.out::println);
 
         System.out.println("========== listar where equals ==========");
 
+        /*Reiniciamos la consulta, Sobreescribimos una consulta nueva*/
         query = criteria.createQuery(Cliente.class);
         from = query.from(Cliente.class);
         ParameterExpression<String> nombreParam = criteria.parameter(String.class, "nombre");
 
+        /*from representa a toda nuestra consulta y sus campos*/
         query.select(from).where(criteria.equal(from.get("nombre"), nombreParam));
         clientes = em.createQuery(query).setParameter("nombre", "Andres").getResultList();
         clientes.forEach(System.out::println);
 
         System.out.println("========== usando where like para buscar clientes por nombre ==========");
 
+        /*Creamos una query nueva*/
         query = criteria.createQuery(Cliente.class);
         from = query.from(Cliente.class);
         ParameterExpression<String> nombreParamLike = criteria.parameter(String.class, "nombreParam");
+        /*like y upper es parte de criteria*/
         query.select(from).where(criteria.like(criteria.upper(from.get("nombre")), criteria.upper(nombreParamLike)));
         clientes = em.createQuery(query).setParameter("nombreParam", "%jo%")
                 .getResultList();
         clientes.forEach(System.out::println);
 
         System.out.println("========== ejemplo usando where between para rangos ==========");
+        /*inicializamos el query*/
         query = criteria.createQuery(Cliente.class);
+        /*hacemos el nuevo from*/
         from = query.from(Cliente.class);
+        /*creamos el select del from*/
+        /*between es parte de criteria*/
         query.select(from).where(criteria.between(from.get("id"), 2L, 6L));
         clientes = em.createQuery(query).getResultList();
         clientes.forEach(System.out::println);
@@ -107,8 +119,12 @@ public class HibernateCriteria {
         System.out.println(cliente);
 
         System.out.println("========== consulta solo el nombre de los clientes ==========");
+        /*En ves de tipo cliente, va hacer de tipo string*/
+        /*El resultado es tipo string, ya no es cliente*/
         CriteriaQuery<String> queryString = criteria.createQuery(String.class);
+        /*Se le hace from a los clientes*/
         from = queryString.from(Cliente.class);
+        /*Solo pasamos el nombre que es lo que nos interesa*/
         queryString.select(from.get("nombre"));
         List<String> nombres = em.createQuery(queryString).getResultList();
         nombres.forEach(System.out::println);
@@ -137,8 +153,13 @@ public class HibernateCriteria {
         nombres.forEach(System.out::println);
 
         System.out.println("========== consulta de campos personalizados del entity cliente ============");
+        /*Arreglo de objetos, cada objeto es el valor de cada atributo, cada campo*/
+        /*critera query , representa los datos de la consulta*/
         CriteriaQuery<Object[]> queryObject = criteria.createQuery(Object[].class);
+        /*La tabla que vamos hacer e from*/
         from = queryObject.from(Cliente.class);
+        /*El select no nos sirve, porque siempre va a devlver un solo valor
+                por eso hagarramos  multiselect*/
         queryObject.multiselect(from.get("id"), from.get("nombre"), from.get("apellido"));
         List<Object[]> registros = em.createQuery(queryObject).getResultList();
         registros.forEach(reg -> {
