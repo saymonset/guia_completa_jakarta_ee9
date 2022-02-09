@@ -194,8 +194,10 @@ public class HibernateCriteria {
 
         System.out.println("=========== contar registros de la consulta con count ==========");
 
+        /*La saida es un Long, por eso colocamos tipo Long*/
         CriteriaQuery<Long> queryLong = criteria.createQuery(Long.class);
         from = queryLong.from(Cliente.class);
+        //Si colocas from a secas o from.get("id") es lo mismo
         queryLong.select(criteria.count(from.get("id")));
         Long count = em.createQuery(queryLong).getSingleResult();
         System.out.println(count);
