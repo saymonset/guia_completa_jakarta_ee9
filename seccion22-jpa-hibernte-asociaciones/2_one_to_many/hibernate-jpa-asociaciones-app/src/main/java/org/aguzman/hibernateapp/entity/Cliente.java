@@ -22,6 +22,22 @@ public class Cliente {
     @Embedded
     private Auditoria audit = new Auditoria();
 
+    /*Un cliente, muchas direcciones*/
+    /*Cuando una clase es principal (Cliente) Vincula una o muchas mas
+        entidades secundarias como direcciones, por eso tenemos que colocar el
+    tipo de cascada. Si es cascada all, significa que cada ves que se guarda o se crea un cliente
+    automaticamente tambien va a crear a su dependientes y lo va a persistir*/
+    /*Si eliminamos del cliente alguna direccion, esta direccion va a quedar
+            con la foreignkey o clave foranea en null, no va a estar
+            asignada, va a quedar huerfana, entonces todo estos registros
+    que quedan huerfans de direcciones, se pueden eliminar,
+    por eso asignamos  orphanRemoval = true para eliminar las direcciones huerfanas al eliminarlaa
+    del cliente*/
+
+   /* Automaticamente va a crear una tabla intermedia que se va a llamar
+            clientes_direcciones, que guardac el id del cliente con
+    el id de direccion, ambas foreignkey*/
+
     @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true)
     @JoinColumn(name = "id_cliente")
     private List<Direccion> direcciones;
@@ -31,12 +47,16 @@ public class Cliente {
     }
 
     public Cliente(String nombre, String apellido) {
+        /*con this, Llamamos al constructor vacio
+        e inicializa direcciones*/
         this();
         this.nombre = nombre;
         this.apellido = apellido;
     }
 
     public Cliente(Long id, String nombre, String apellido, String formaPago) {
+        /*con this, Llamamos al constructor vacio
+        e inicializa direcciones*/
         this();
         this.id = id;
         this.nombre = nombre;
