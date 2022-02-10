@@ -15,6 +15,8 @@ public class ClienteDetalle {
     @Column(name="puntos_acumulados")
     private Long puntosAcumulados;
 
+
+    /*Esta tabla es la duena de la relacion, ya que tiene @JoinColumn*/
     @OneToOne
     @JoinColumn(name="cliente_detalle_id")
     private Cliente cliente;

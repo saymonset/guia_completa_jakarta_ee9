@@ -32,6 +32,11 @@ public class Cliente {
     @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true, mappedBy = "cliente")
     private List<Factura> facturas;
 
+    /*mappedBy = "cliente" va a referenciar en la tabla duena de la relacion*/
+    /*No puede haber mappedBy con @JoinColumn*/
+    /*Cuando colocamos mappedBy, estamos diciendo que esta clase es la principal
+    y contienen una relacion con detalle que es la hija, pero la hija
+    es el duno de la relacion porque tiene la foreignkey con @JoinColumn*/
     @OneToOne(cascade = CascadeType.ALL, orphanRemoval = true, mappedBy = "cliente")
     private ClienteDetalle detalle;
 
