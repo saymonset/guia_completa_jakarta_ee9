@@ -19,6 +19,10 @@ public class HibernateAsociacionesOneToManyBidireccionalFind {
             Factura f2 = new Factura("compras de tecnologia", 7000L);
             cliente.addFactura(f1)
                     .addFactura(f2);
+            //El merge es opcional, porque como buscamos el cliente con find
+            //esta en el contexto de persistencia, y si lo modificamos, simplemente
+            //con el commit al detectar que cambio la instancia, automaicamente
+            //va hacer un update
 //            em.merge(cliente);
             em.getTransaction().commit();
             System.out.println(cliente);

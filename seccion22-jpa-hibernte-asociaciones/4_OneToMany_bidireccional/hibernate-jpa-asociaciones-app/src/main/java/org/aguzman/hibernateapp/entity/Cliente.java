@@ -29,6 +29,7 @@ public class Cliente {
     , uniqueConstraints = @UniqueConstraint(columnNames={"id_direccion"}))
     private List<Direccion> direcciones;
 
+    /*mappedBy = "cliente" es la contraparte y esta del otro lado en facturas*/
     @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true, mappedBy = "cliente")
     private List<Factura> facturas;
 

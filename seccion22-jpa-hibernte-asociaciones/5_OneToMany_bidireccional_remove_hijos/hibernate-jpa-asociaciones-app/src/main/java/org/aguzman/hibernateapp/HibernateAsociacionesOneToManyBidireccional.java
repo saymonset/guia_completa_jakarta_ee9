@@ -18,6 +18,7 @@ public class HibernateAsociacionesOneToManyBidireccional {
 
             Factura f1 = new Factura("compras de supermercado", 5000L);
             Factura f2 = new Factura("compras de tecnologia", 7000L);
+            /*Se agrega factura internamente al cliente y se devuelve el cliente*/
             cliente.addFactura(f1)
                     .addFactura(f2);
 

@@ -29,6 +29,10 @@ public class Cliente {
     , uniqueConstraints = @UniqueConstraint(columnNames={"id_direccion"}))
     private List<Direccion> direcciones;
 
+    /*En cascada guarde la factura, o en cascada la elimina y no
+    dejando huerfanna una factura por el cliente*/
+    /*mappedBy = "cliente" aqui indicamos cual es el atributo mapeado al cliente
+    en la parte inversa o contraparte  que es factura*/
     @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true, mappedBy = "cliente")
     private List<Factura> facturas;
 
