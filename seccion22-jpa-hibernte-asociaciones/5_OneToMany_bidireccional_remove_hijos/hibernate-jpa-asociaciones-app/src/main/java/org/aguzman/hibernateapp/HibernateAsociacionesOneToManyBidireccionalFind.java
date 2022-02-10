@@ -31,6 +31,8 @@ public class HibernateAsociacionesOneToManyBidireccionalFind {
             // Factura f3 = em.find(Factura.class, 1L);
             Factura f3 = new Factura("compras de supermercado", 5000L);
             f3.setId(1L);
+            // Aqui eliminamos facturas en las dos partes,
+            // //tanto en el cliente como en facturas
             cliente.removeFactura(f3);
             em.getTransaction().commit();
             System.out.println(cliente);

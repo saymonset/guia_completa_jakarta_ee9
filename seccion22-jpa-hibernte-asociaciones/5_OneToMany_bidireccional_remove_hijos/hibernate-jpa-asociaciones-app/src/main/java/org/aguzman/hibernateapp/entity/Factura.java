@@ -67,6 +67,8 @@ public class Factura {
                 '}';
     }
 
+    /*Si no colocamos el equals, no lo podemos eliminar con colocarles solo
+    los datos*/
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
