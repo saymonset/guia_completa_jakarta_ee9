@@ -67,6 +67,7 @@ public class Alumno {
 
     public void addCurso(Curso curso) {
         this.cursos.add(curso);
+        /*agregamos la contraparte de cursos al alumno*/
         curso.getAlumnos().add(this);
     }
 

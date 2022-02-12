@@ -16,6 +16,8 @@ public class Curso {
     private String titulo;
     private String profesor;
 
+    /*con mappedBy establecemos la relacion inversa*/
+    /*Alumno maneja laforeign key, es la clase parent y duena*/
     @ManyToMany(mappedBy = "cursos")
     private List<Alumno> alumnos;
 
@@ -81,5 +83,7 @@ public class Curso {
                 ", titulo='" + titulo + '\'' +
                 ", profesor='" + profesor + '\'' +
                 '}';
+        /*No se coloca alumono en el to string, porqe esta del otro lado en alumno
+                y se vuelve ciclico, infinito*/
     }
 }

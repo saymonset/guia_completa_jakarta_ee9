@@ -24,6 +24,8 @@ public class HibernateAsociacionesManyToManyFind {
 
             alumno2.getCursos().add(curso1);
 
+            /*Esto automaticamente hace los insert en la tabla intermedia con los id de cada uno
+            * sin necesidad de hacer un persist o merge porque esta en el contexto jpa y ue se uso em.find*/
             em.getTransaction().commit();
 
             System.out.println(alumno1);

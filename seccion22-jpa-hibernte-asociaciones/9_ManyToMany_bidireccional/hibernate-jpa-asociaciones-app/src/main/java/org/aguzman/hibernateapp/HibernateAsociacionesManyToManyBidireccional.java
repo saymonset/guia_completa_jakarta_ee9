@@ -19,6 +19,9 @@ public class HibernateAsociacionesManyToManyBidireccional {
             Curso curso1 = new Curso("Curso Java", "Andres");
             Curso curso2 = new Curso("Curso Hibernate y Jpa", "Andres");
 
+            /*Dentro de este metodo curso de alumno,  agrega dentro de curso, su lista de alumnos
+             al alumno tambien en curso*/
+            /*se ageega curso y alumno en viceversa ambos*/
             alumno1.addCurso(curso1);
             alumno1.addCurso(curso2);
 
@@ -35,6 +38,7 @@ public class HibernateAsociacionesManyToManyBidireccional {
             em.getTransaction().begin();
             // Curso c2 = em.find(Curso.class, 3L);
             Curso c2 = new Curso("Curso Java", "Andres");
+            /*como Curso tiene el equals por id, lo encuentra al remove el entity*/
             c2.setId(3L);
             alumno1.removeCurso(c2);
             em.getTransaction().commit();

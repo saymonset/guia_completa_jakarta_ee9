@@ -17,8 +17,13 @@ public class Alumno {
     private String apellido;
 
     @ManyToMany(cascade = {CascadeType.PERSIST, CascadeType.MERGE})
+    /*personaizamos l nombre de la tabla intermedia*/
+    /*Declaramos la primera clave foranea que es la duena de ;a relacion
+    @JoinColumn(name="alumno_id"*/
+    /*Declaramos la foreignkey de la relacion inversa inverseJoinColumns = @JoinColumn(name = "curso_id"*/
     @JoinTable(name = "tbl_alumnos_cursos", joinColumns = @JoinColumn(name="alumno_id"),
     inverseJoinColumns = @JoinColumn(name = "curso_id"),
+    /*Este es el constraint y su par debe ser unico*/
     uniqueConstraints = @UniqueConstraint(columnNames = {"alumno_id", "curso_id"}))
     private List<Curso> cursos;
 
