@@ -22,6 +22,8 @@ public class Cliente {
     @Embedded
     private Auditoria audit = new Auditoria();
 
+    /*Todos los que terminen en many, se cargaran con carga perezosa, como, manyToMany, oneToMany*/
+    /*Todos los wue terminen en one, hara fetch con eager, como, oneToone, manyToOne*/
     @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true)
     //@JoinColumn(name = "id_cliente")
     @JoinTable(name = "tbl_clientes_direcciones", joinColumns = @JoinColumn(name="id_cliente")
