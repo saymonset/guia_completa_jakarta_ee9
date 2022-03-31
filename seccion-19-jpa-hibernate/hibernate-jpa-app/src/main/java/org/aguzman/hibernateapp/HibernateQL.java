@@ -120,7 +120,7 @@ public class HibernateQL {
         System.out.println("========== consulta para buscar por nombre ===========");
         String param = "NA";
         /*Buena practica es convertir en mayuscula lo que se va a buscar y su parametro*/
-        clientes = em.createQuery("select c from Cliente c where upper(c.nombre) like upper(:parametro)", Cliente.class)
+        clientes = em.createQuery("select c from Cliente c where g", Cliente.class)
                 .setParameter("parametro", "%" + param + "%")
                         .getResultList();
         clientes.forEach(System.out::println);
