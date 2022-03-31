@@ -16,6 +16,7 @@ public class HibernateCriteria {
         /*CriteriaBuilder nos permite crear  paso a paso nuestra consulta a hibernate*/
         CriteriaBuilder criteria = em.getCriteriaBuilder();
 
+        //en ves de em, usamos criteria y pasamos el tipo de dato de resultado que es cliente.class
         CriteriaQuery<Cliente> query = criteria.createQuery(Cliente.class);
 
         /*from  , es del tipo root, asociada a la tabla, equivale a from cliente*/
@@ -29,6 +30,7 @@ public class HibernateCriteria {
         System.out.println("========== listar where equals ==========");
 
         /*Reiniciamos la consulta, Sobreescribimos una consulta nueva*/
+
         query = criteria.createQuery(Cliente.class);
         from = query.from(Cliente.class);
         ParameterExpression<String> nombreParam = criteria.parameter(String.class, "nombre");
