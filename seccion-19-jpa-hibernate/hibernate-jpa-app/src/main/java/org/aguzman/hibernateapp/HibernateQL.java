@@ -13,6 +13,7 @@ public class HibernateQL {
 
         EntityManager em = JpaUtil.getEntityManager();
         System.out.println("=========== consultar todos ==========");
+        //consultar todos en un objeto
         List<Cliente> clientes = em.createQuery("select c from Cliente c", Cliente.class)
                 .getResultList();
         clientes.forEach(System.out::println);
@@ -24,6 +25,7 @@ public class HibernateQL {
         System.out.println(cliente);
 
         System.out.println("========== consulta solo el nombre por el id ==========");
+        //consultar solo un campo tipo string en el query
         String nombreCliente = em.createQuery("select c.nombre from Cliente c where c.id=:id", String.class)
                 .setParameter("id", 2L)
                 .getSingleResult();
@@ -31,6 +33,7 @@ public class HibernateQL {
 
         System.out.println("========== consulta por campos personalizados ===========");
         /*aqui se obtiene uno solo de una consulta mixta*/
+        //consulta vsrios campos en un query y se guarda en un Object[]. Declramo l tip0 de salida que es object[] tambien
         Object[] objetoCliente = em.createQuery("select c.id, c.nombre, c.apellido from Cliente c where c.id=:id", Object[].class)
                 .setParameter("id", 1L)
                 .getSingleResult();
@@ -40,6 +43,7 @@ public class HibernateQL {
         System.out.println("id=" + id + ",nombre=" + nombre + ",apellido=" + apellido);
 
         System.out.println("========== consulta por campos personalizados lista ===========");
+        //Obtenemos una lista de Object[], y su tipo al declararlo en el query es Object[]
         /*Cuando se quiere obtener datos de un objeto en object[]*/
         /*aqui se tiene una lista de objetos mixtos*/
         List<Object[]> registros = em.createQuery("select c.id, c.nombre, c.apellido from Cliente c", Object[].class)
@@ -54,6 +58,8 @@ public class HibernateQL {
         //}
 
         System.out.println("=========== consulta por cliente y forma de pago ==========");
+        //Consulta tanto el objeto entero, como un campo de dicho objeto, el tipo de query es Object[] y su resultado es
+        //una lista de Object[]
         registros = em.createQuery("select c, c.formaPago from Cliente c", Object[].class)
                         .getResultList();
         registros.forEach(reg -> {
@@ -63,11 +69,14 @@ public class HibernateQL {
         });
 
         System.out.println("========== consulta que puebla y devuelve objeto entity de una clase personalizada ==========");
+        //Consultamos objetos entitys porblados con su constructor
         clientes = em.createQuery("select new Cliente(c.nombre, c.apellido) from Cliente c", Cliente.class)
                 .getResultList();
         clientes.forEach(System.out::println);
 
         System.out.println("========== consulta que puebla y devuelve objeto otro de una clase personalizada ==========");
+        //Creamos un dto poblado con valores del objeto real entity en su constructor y debemos colocar el
+        //nombre del paquete completo porque no pertenece al contexto jpa y no lo puede ubicar
         List<ClienteDto> clientesDto = em.createQuery("select new org.aguzman.hibernateapp.dominio.ClienteDto(c.nombre, c.apellido) from Cliente c", ClienteDto.class)
                 .getResultList();
         clientesDto.forEach(System.out::println);
