@@ -88,6 +88,7 @@ public class HibernateQL {
         nombres.forEach(System.out::println);
 
         System.out.println("========== consulta con nombres unicos de clientes ===========");
+        /*A pesar que devuelve una lista de string, el tipo de query es string.class*/
         nombres = em.createQuery("select distinct(c.nombre) from Cliente c", String.class)
                         .getResultList();
         nombres.forEach(System.out::println);
