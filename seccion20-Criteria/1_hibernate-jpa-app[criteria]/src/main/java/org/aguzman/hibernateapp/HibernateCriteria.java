@@ -65,6 +65,7 @@ public class HibernateCriteria {
 
         System.out.println("========== consulta where in ==========");
 
+        //tipo de dato Cliente.class
         query = criteria.createQuery(Cliente.class);
         from = query.from(Cliente.class);
         ParameterExpression<List> listParam = criteria.parameter(List.class, "nombres");
@@ -200,6 +201,7 @@ public class HibernateCriteria {
         CriteriaQuery<Long> queryLong = criteria.createQuery(Long.class);
         from = queryLong.from(Cliente.class);
         //Si colocas from a secas o from.get("id") es lo mismo
+        //criteria.count(from)
         queryLong.select(criteria.count(from.get("id")));
         Long count = em.createQuery(queryLong).getSingleResult();
         System.out.println(count);
