@@ -19,6 +19,7 @@ public class Cliente {
     @Column(name="forma_pago")
     private String formaPago;
 
+    /*Estamos insertando este pedazo de codigo con @Embedded*/
     @Embedded
     private Auditoria audit = new Auditoria();
 

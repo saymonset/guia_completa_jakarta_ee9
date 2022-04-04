@@ -7,6 +7,8 @@ import jakarta.persistence.PreUpdate;
 
 import java.time.LocalDateTime;
 
+/*Se puede embeber o incrustar en otra clase con esta anotacion*/
+/*Se puede reutilizar, incluir en otra clase entity*/
 @Embeddable
 public class Auditoria {
 
