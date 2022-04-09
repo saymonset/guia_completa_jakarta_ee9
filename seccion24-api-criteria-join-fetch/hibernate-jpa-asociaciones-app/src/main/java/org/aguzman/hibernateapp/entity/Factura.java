@@ -2,6 +2,8 @@ package org.aguzman.hibernateapp.entity;
 
 import jakarta.persistence.*;
 
+import java.util.Objects;
+
 @Entity
 @Table(name="facturas")
 public class Factura {
@@ -12,11 +14,8 @@ public class Factura {
     private String descripcion;
     private Long total;
 
-    @ManyToOne
-    /*JoinColumn es para asignar una foreign key que ya existe*/
+    @ManyToOne(fetch=FetchType.LAZY)
     @JoinColumn(name="id_cliente")
-    //Si no colocamos  un nombre en @JoinColumn(name="id_cliente"), toma el nombre
-    //del atributo, en este caso cliente y le suma el _id, y queda cliente_id
     private Cliente cliente;
 
     public Factura() {
@@ -65,7 +64,19 @@ public class Factura {
                 "id=" + id +
                 ", descripcion='" + descripcion + '\'' +
                 ", total=" + total +
-                ", cliente=" + cliente +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Factura factura = (Factura) o;
+        return Objects.equals(id, factura.id) && Objects.equals(descripcion, factura.descripcion) && Objects.equals(total, factura.total);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, descripcion, total);
     }
 }
