@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="webapp-ear-ejb" />
+        <module name="webapp-ear-ear" />
+        <module name="webapp-ear-war" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="webapp-ear-ear" target="16" />
+      <module name="webapp-ear-ejb" target="16" />
+      <module name="webapp-ear-war" target="16" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
