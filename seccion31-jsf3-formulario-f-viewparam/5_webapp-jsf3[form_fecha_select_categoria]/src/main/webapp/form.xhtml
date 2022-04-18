@@ -30,8 +30,14 @@
                 <h:inputText id="sku" value="#{producto.sku}" required="true" label="Sku"/>
 
                 <h:outputLabel value="Fecha" for="fechaRegistro"/>
-                <h:inputText id="fechaRegistro" value="#{producto.fechaRegistro}" label="Fecha Registro" required="true" convertMessage="Indique la fecha con yyyy-MM-dd">
+
+                <!--En caso de equivocarse se coloca en convertMessage="Indique la fecha con yyyy-MM-dd"-->
+                <h:inputText id="fechaRegistro" value="#{producto.fechaRegistro}" label="Fecha Registro" required="true"
+                             convertMessage="Indique la fecha con yyyy-MM-dd">
+                    <!--Convertimos el string a localDate y el patron-->
                     <f:convertDateTime type="localDate" pattern="yyyy-MM-dd" />
+                    <!--Estos son atributos generles que se van a formar por debajo en el input-->
+                    <!--Por debajo va a generar un input type con tipo date-->
                     <f:passThroughAttribute name="type" value="date" />
                 </h:inputText>
 
