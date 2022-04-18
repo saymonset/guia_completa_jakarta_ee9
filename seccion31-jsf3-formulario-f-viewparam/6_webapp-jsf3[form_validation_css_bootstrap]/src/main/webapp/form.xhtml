@@ -40,6 +40,7 @@
             <h:link outcome="index" value="volver" class="btn btn-sm btn-primary my-2"/>
             <h:form>
                 <h:panelGrid columns="3" class="table table-hover table-striped">
+                    <!--validando de forma personalizada cada campo-->
                     <h:outputLabel value="Nombre" for="nombre" class="col-form-label"/>
                     <h:inputText id="nombre" value="#{producto.nombre}" label="Nombre" class="form-control"/>
                     <h:message for="nombre" style="color:red;"/>

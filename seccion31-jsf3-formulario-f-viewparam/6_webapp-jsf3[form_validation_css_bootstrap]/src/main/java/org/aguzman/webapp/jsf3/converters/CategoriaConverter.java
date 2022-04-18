@@ -22,6 +22,7 @@ public class CategoriaConverter implements Converter<Categoria> {
 
     @Override
     public Categoria getAsObject(FacesContext context, UIComponent component, String id) {
+        /*La pimera seleccion del selectItem es nulo y validamos aca*/
         if (id == null) {
             return null;
         }
