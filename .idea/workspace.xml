@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fd7e7ad-791a-4780-8158-95d0c9a3fb58" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/seccion31-jsf3-formulario-f-viewparam/6_webapp-jsf3[form_validation_css_bootstrap]/src/main/java/org/aguzman/webapp/jsf3/converters/CategoriaConverter.java" afterPath="$PROJECT_DIR$/seccion31-jsf3-formulario-f-viewparam/6_webapp-jsf3[form_validation_css_bootstrap]/src/main/java/org/aguzman/webapp/jsf3/converters/CategoriaConverter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,16 +14,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="CategoriaConverter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/seccion31-jsf3-formulario-f-viewparam/5_webapp-jsf3[form_fecha_select_categoria]/src/main/java/org/aguzman/webapp/jsf3/converters/CategoriaConverter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="form.xhtml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/seccion31-jsf3-formulario-f-viewparam/5_webapp-jsf3[form_fecha_select_categoria]/src/main/webapp/form.xhtml">
           <provider selected="true" editor-type-id="text-editor">
@@ -76,11 +66,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="form.xhtml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="form.xhtml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/seccion31-jsf3-formulario-f-viewparam/6_webapp-jsf3[form_validation_css_bootstrap]/src/main/webapp/form.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="779">
-              <caret line="67" column="66" lean-forward="false" selection-start-line="67" selection-start-column="48" selection-end-line="67" selection-end-column="66" />
+            <state relative-caret-position="840">
+              <caret line="42" column="24" lean-forward="false" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="70" />
+              <folding>
+                <element signature="n#style#0;n#h:message#0;n#h:panelGrid#0;n#h:form#0;n#h:panelGrid#0;n#div#0;n#h:body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Producto.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/seccion31-jsf3-formulario-f-viewparam/6_webapp-jsf3[form_validation_css_bootstrap]/src/main/java/org/aguzman/webapp/jsf3/entities/Producto.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-336">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -161,8 +163,8 @@
         <option value="$PROJECT_DIR$/seccion31-jsf3-formulario-f-viewparam/5_webapp-jsf3[form_fecha_select_categoria]/src/main/webapp/index.xhtml" />
         <option value="$PROJECT_DIR$/seccion31-jsf3-formulario-f-viewparam/5_webapp-jsf3[form_fecha_select_categoria]/src/main/webapp/form.xhtml" />
         <option value="$PROJECT_DIR$/seccion31-jsf3-formulario-f-viewparam/4_webapp-jsf3[form_crud_completo]/src/main/java/org/aguzman/webapp/jsf3/repositories/ProductoRepositoryImpl.java" />
-        <option value="$PROJECT_DIR$/seccion31-jsf3-formulario-f-viewparam/6_webapp-jsf3[form_validation_css_bootstrap]/src/main/webapp/form.xhtml" />
         <option value="$PROJECT_DIR$/seccion31-jsf3-formulario-f-viewparam/6_webapp-jsf3[form_validation_css_bootstrap]/src/main/java/org/aguzman/webapp/jsf3/converters/CategoriaConverter.java" />
+        <option value="$PROJECT_DIR$/seccion31-jsf3-formulario-f-viewparam/6_webapp-jsf3[form_validation_css_bootstrap]/src/main/webapp/form.xhtml" />
       </list>
     </option>
   </component>
@@ -369,6 +371,56 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="jsf3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guia_completa_jakarta_ee9" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guia_completa_jakarta_ee9" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="seccion31-jsf3-formulario-f-viewparam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="6_webapp-jsf3[form_validation_css_bootstrap]" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aguzman" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsf3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="entities" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1063,15 +1115,16 @@
       <workItem from="1649927308854" duration="1876000" />
       <workItem from="1650025019085" duration="679000" />
       <workItem from="1650119071897" duration="1064000" />
-      <workItem from="1650279730869" duration="5070000" />
+      <workItem from="1650279730869" duration="5756000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37640000" />
+    <option name="totallyTimeSpent" value="38326000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="540" y="-18" width="3318" height="2196" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32981676" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1087,7 +1140,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11549139" sideWeight="0.4965278" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3285985" sideWeight="0.48509935" order="8" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3285985" sideWeight="0.48509935" order="8" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2497721" sideWeight="0.49002603" order="9" side_tool="false" content_ui="tabs" />
@@ -1125,13 +1178,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/seccion22-jpa-hibernte-asociaciones/4_OneToMany_bidireccional/hibernate-jpa-asociaciones-app/src/main/java/org/aguzman/hibernateapp/entity/Cliente.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/seccion22-jpa-hibernte-asociaciones/6_OneToOne_bidireccional/hibernate-jpa-asociaciones-app/src/main/java/org/aguzman/hibernateapp/entity/Cliente.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1904">
@@ -1483,8 +1529,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/seccion31-jsf3-formulario-f-viewparam/6_webapp-jsf3[form_validation_css_bootstrap]/src/main/webapp/form.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="779">
-          <caret line="67" column="66" lean-forward="false" selection-start-line="67" selection-start-column="48" selection-end-line="67" selection-end-column="66" />
+        <state relative-caret-position="840">
+          <caret line="42" column="24" lean-forward="false" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="70" />
+          <folding>
+            <element signature="n#style#0;n#h:message#0;n#h:panelGrid#0;n#h:form#0;n#h:panelGrid#0;n#div#0;n#h:body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seccion31-jsf3-formulario-f-viewparam/6_webapp-jsf3[form_validation_css_bootstrap]/src/main/java/org/aguzman/webapp/jsf3/entities/Producto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-336">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

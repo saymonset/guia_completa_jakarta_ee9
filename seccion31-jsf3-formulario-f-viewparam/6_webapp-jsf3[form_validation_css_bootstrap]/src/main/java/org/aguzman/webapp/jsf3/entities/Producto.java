@@ -12,6 +12,7 @@ public class Producto {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    /*Con este message, obtenemos la validacion del mensaje en el jsf*/
     @NotEmpty(message = "el campo nombre no puede ser vacio!")
     private String nombre;
 
