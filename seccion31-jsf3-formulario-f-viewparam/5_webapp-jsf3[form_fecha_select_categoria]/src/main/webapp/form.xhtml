@@ -48,6 +48,7 @@
                     <f:converter binding="#{categoriaConverter}" />
                 </h:selectOneMenu>
 
+                <!--Aui cambiamos con operador terneario el editar y crear-->
                 <h:commandButton value="#{producto.id>0?'Editar': 'Crear'}" action="#{productoController.guardar}"/>
                 <h:inputHidden value="#{producto.id}"/>
             </h:panelGrid>
