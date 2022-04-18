@@ -38,6 +38,7 @@
                     </h:inputText>
                     <h:message for="fechaRegistro" style="color:red;"/>
 
+                    <!--Se da estilos a la tabla, inputText, outLabel y el select-->
                     <h:outputLabel value="Categoria" for="categoria" class="col-form-label"/>
                     <h:selectOneMenu id="categoria" value="#{producto.categoria}" class="form-select">
                         <f:selectItem itemLabel="--- seleccione una categoria ---" itemValue="#{null}"/>
@@ -49,6 +50,7 @@
                     <h:commandButton value="#{producto.id>0?'Editar': 'Crear'}" action="#{productoController.guardar}"
                                      class="btn btn-primary"/>
                     <h:inputHidden value="#{producto.id}"/>
+                    <!--caracteres vacios-->
                     <p>&#160;</p>
                 </h:panelGrid>
             </h:form>
