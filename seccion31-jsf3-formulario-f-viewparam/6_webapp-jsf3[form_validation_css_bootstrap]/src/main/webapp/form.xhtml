@@ -62,6 +62,7 @@
 
                     <h:outputLabel value="Categoria" for="categoria" class="col-form-label"/>
                     <h:selectOneMenu id="categoria" value="#{producto.categoria}" class="form-select">
+                        <!--En el select, el primer valor sera null. itemValue=#{null}-->
                         <f:selectItem itemLabel="--- seleccione una categoria ---" itemValue="#{null}"/>
                         <f:selectItems value="#{categorias}" var="cat" itemLabel="#{cat.nombre}"/>
                         <f:converter binding="#{categoriaConverter}"/>
