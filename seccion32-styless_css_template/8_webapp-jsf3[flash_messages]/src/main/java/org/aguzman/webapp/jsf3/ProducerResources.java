@@ -10,6 +10,7 @@ public class ProducerResources {
 
     @Produces
     @RequestScoped
+    /*Creamos el FacesContext para os mensajes tipo flash*/
     public FacesContext beanFacesContext() {
         FacesContext facesContext = FacesContext.getCurrentInstance();
         facesContext.getExternalContext().getFlash().setKeepMessages(true);
