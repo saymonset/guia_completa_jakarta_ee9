@@ -11,7 +11,9 @@ import org.aguzman.webapp.jsf3.services.ProductoService;
 
 import java.util.Optional;
 
+/*Primero tiene que ser un componente cdi de tipo request*/
 @RequestScoped
+/*Se le da el nombre al convertidor*/
 @Named("categoriaConverter")
 public class CategoriaConverter implements Converter<Categoria> {
 
