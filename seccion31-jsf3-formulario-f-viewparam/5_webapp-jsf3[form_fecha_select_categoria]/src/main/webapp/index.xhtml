@@ -45,6 +45,7 @@
                 <f:facet name="header">
                     <h:outputText value="Fecha"/>
                 </f:facet>
+                <!--Con convertDateTime colocamos el formato de la fecha como la salida que queremos-->
                 <h:outputText value="#{prod.fechaRegistro}">
                     <f:convertDateTime type="localDate" pattern="dd/MM/yyyy" />
                 </h:outputText>
