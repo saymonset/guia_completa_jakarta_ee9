@@ -18,7 +18,7 @@
         <entry file="file://$PROJECT_DIR$/seccion31-jsf3-formulario-f-viewparam/5_webapp-jsf3[form_fecha_select_categoria]/src/main/webapp/form.xhtml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-280">
-              <caret line="28" column="54" lean-forward="true" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
+              <caret line="28" column="54" lean-forward="false" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
               <folding>
                 <element signature="n#style#0;n#h:messages#0;n#h:body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -60,7 +60,7 @@
         <entry file="file://$PROJECT_DIR$/seccion31-jsf3-formulario-f-viewparam/4_webapp-jsf3[form_crud_completo]/src/main/java/org/aguzman/webapp/jsf3/repositories/ProductoRepositoryImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="896">
-              <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+              <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -81,8 +81,8 @@
       <file leaf-file-name="Producto.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/seccion31-jsf3-formulario-f-viewparam/6_webapp-jsf3[form_validation_css_bootstrap]/src/main/java/org/aguzman/webapp/jsf3/entities/Producto.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-336">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="280">
+              <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="71" />
               <folding />
             </state>
           </provider>
@@ -165,6 +165,7 @@
         <option value="$PROJECT_DIR$/seccion31-jsf3-formulario-f-viewparam/4_webapp-jsf3[form_crud_completo]/src/main/java/org/aguzman/webapp/jsf3/repositories/ProductoRepositoryImpl.java" />
         <option value="$PROJECT_DIR$/seccion31-jsf3-formulario-f-viewparam/6_webapp-jsf3[form_validation_css_bootstrap]/src/main/java/org/aguzman/webapp/jsf3/converters/CategoriaConverter.java" />
         <option value="$PROJECT_DIR$/seccion31-jsf3-formulario-f-viewparam/6_webapp-jsf3[form_validation_css_bootstrap]/src/main/webapp/form.xhtml" />
+        <option value="$PROJECT_DIR$/seccion31-jsf3-formulario-f-viewparam/6_webapp-jsf3[form_validation_css_bootstrap]/src/main/java/org/aguzman/webapp/jsf3/entities/Producto.java" />
       </list>
     </option>
   </component>
@@ -1115,16 +1116,15 @@
       <workItem from="1649927308854" duration="1876000" />
       <workItem from="1650025019085" duration="679000" />
       <workItem from="1650119071897" duration="1064000" />
-      <workItem from="1650279730869" duration="5756000" />
+      <workItem from="1650279730869" duration="6527000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38326000" />
+    <option name="totallyTimeSpent" value="39097000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="540" y="-18" width="3318" height="2196" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32981676" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1137,7 +1137,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32981676" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43864518" sideWeight="0.49783424" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11549139" sideWeight="0.4965278" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11549139" sideWeight="0.4965278" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3285985" sideWeight="0.48509935" order="8" side_tool="false" content_ui="combo" />
@@ -1472,7 +1472,7 @@
     <entry file="file://$PROJECT_DIR$/seccion31-jsf3-formulario-f-viewparam/5_webapp-jsf3[form_fecha_select_categoria]/src/main/webapp/form.xhtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-280">
-          <caret line="28" column="54" lean-forward="true" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
+          <caret line="28" column="54" lean-forward="false" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
           <folding>
             <element signature="n#style#0;n#h:messages#0;n#h:body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -1506,7 +1506,7 @@
     <entry file="file://$PROJECT_DIR$/seccion31-jsf3-formulario-f-viewparam/4_webapp-jsf3[form_crud_completo]/src/main/java/org/aguzman/webapp/jsf3/repositories/ProductoRepositoryImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="896">
-          <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1539,8 +1539,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/seccion31-jsf3-formulario-f-viewparam/6_webapp-jsf3[form_validation_css_bootstrap]/src/main/java/org/aguzman/webapp/jsf3/entities/Producto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-336">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="280">
+          <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="71" />
           <folding />
         </state>
       </provider>
