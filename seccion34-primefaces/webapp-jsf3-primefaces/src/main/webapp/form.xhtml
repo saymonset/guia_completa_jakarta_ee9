@@ -5,6 +5,8 @@
                 xmlns:f="http://xmlns.jcp.org/jsf/core"
                 xmlns:p="http://primefaces.org/ui"
                 template="/WEB-INF/layouts/main.xhtml">
+    <!--Para configurar primefaces , debe estar antes de template
+    xmlns:p="http://primefaces.org/ui"-->
 
     <ui:define name="content">
 
@@ -47,6 +49,7 @@
                     </p:selectOneMenu>
                     <p:message for="categoria" style="color:red;"/>
 
+                    <!--Por defecto viene ajax habilitado, lo deshabilitamos-->
                     <p:commandButton value="#{producto.id>0? msg['producto.boton.editar']: msg['producto.boton.crear']}" action="#{productoController.guardar}"
                                      class="ui-button-outlined ui-button-success" ajax="false"/>
                     <h:inputHidden value="#{producto.id}"/>
