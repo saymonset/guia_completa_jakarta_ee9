@@ -23,7 +23,8 @@ public class ProducerResources {
     @Produces
     @Named("msg")
     public ResourceBundle beanBundle() {
-        Locale locale = FacesContext.getCurrentInstance().getViewRoot().getLocale();
+        Locale locale = FacesContext.getCurrentInstance()
+                .getViewRoot().getLocale();
         return ResourceBundle.getBundle("messages", locale);
     }
 }

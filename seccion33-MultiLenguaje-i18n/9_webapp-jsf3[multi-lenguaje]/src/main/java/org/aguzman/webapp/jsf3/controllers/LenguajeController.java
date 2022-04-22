@@ -21,6 +21,11 @@ public class LenguajeController implements Serializable {
     private String lenguaje;
     private Map<String, String> lenguajesSoportados;
 
+    /*Aqui estara disponble todos los objetos que hemos inyectado, todos
+    los componentes*/
+    /*Cuando trabajamos con cdi es mejor inicializar los componentes
+    en un metodo anotado en postConstruct*/
+
     @PostConstruct
     public void init() {
         locale = FacesContext.getCurrentInstance().getViewRoot().getLocale();
@@ -29,6 +34,7 @@ public class LenguajeController implements Serializable {
         lenguajesSoportados.put("Español", "es");
     }
 
+    /*objeto evento recibe ValueChangeEvent*/
     public void seleccionar(ValueChangeEvent event) {
         String nuevo = event.getNewValue().toString();
         lenguajesSoportados.values().forEach(v -> {
