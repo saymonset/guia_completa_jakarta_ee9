@@ -73,6 +73,8 @@ public class ProductoController {
         System.out.println(producto);
         service.guardar(producto);
         if (producto.getId() != null && producto.getId() > 0) {
+            /*Estos son os mensajes flash*/
+            /*Sustituimos el %s que esta en el bundle con el nombre del producto a traves de String.format*/
             facesContext.addMessage(null, new FacesMessage(String.format(bundle.getString("producto.mensaje.editar"), producto.getNombre())));
         } else {
             facesContext.addMessage(null, new FacesMessage(String.format(bundle.getString("producto.mensaje.crear"), producto.getNombre())));
