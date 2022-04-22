@@ -38,8 +38,8 @@
       <file leaf-file-name="main.xhtml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/seccion34-primefaces/webapp-jsf3-primefaces/src/main/webapp/WEB-INF/layouts/main.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="692">
-              <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="43" />
+            <state relative-caret-position="580">
+              <caret line="16" column="69" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="70" />
               <folding />
             </state>
           </provider>
@@ -779,12 +779,12 @@
       <workItem from="1650359687520" duration="1836000" />
       <workItem from="1650454844230" duration="1801000" />
       <workItem from="1650547265493" duration="619000" />
-      <workItem from="1650617759955" duration="5004000" />
+      <workItem from="1650617759955" duration="5160000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52593000" />
+    <option name="totallyTimeSpent" value="52749000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="540" y="-18" width="3318" height="2196" extended-state="0" />
@@ -1200,8 +1200,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/seccion34-primefaces/webapp-jsf3-primefaces/src/main/webapp/WEB-INF/layouts/main.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="692">
-          <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="43" />
+        <state relative-caret-position="580">
+          <caret line="16" column="69" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="70" />
           <folding />
         </state>
       </provider>
