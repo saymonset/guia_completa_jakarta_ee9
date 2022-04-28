@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5fd7e7ad-791a-4780-8158-95d0c9a3fb58" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/seccion34-primefaces/2_webapp-jsf3-primefaces[paneles_ajax]/webapp-jsf3-primefaces/src/main/webapp/form.xhtml" afterPath="$PROJECT_DIR$/seccion34-primefaces/2_webapp-jsf3-primefaces[paneles_ajax]/webapp-jsf3-primefaces/src/main/webapp/form.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/seccion34-primefaces/webapp-jsf3-primefaces/src/main/webapp/form.xhtml" afterPath="$PROJECT_DIR$/seccion34-primefaces/webapp-jsf3-primefaces/src/main/webapp/form.xhtml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,11 +25,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="form.xhtml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="form.xhtml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/seccion34-primefaces/webapp-jsf3-primefaces/src/main/webapp/form.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2856">
-              <caret line="51" column="46" lean-forward="false" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="79" />
+            <state relative-caret-position="479">
+              <caret line="53" column="110" lean-forward="true" selection-start-line="52" selection-start-column="19" selection-end-line="53" selection-end-column="110" />
               <folding />
             </state>
           </provider>
@@ -55,11 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="form.xhtml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="form.xhtml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/seccion34-primefaces/2_webapp-jsf3-primefaces[paneles_ajax]/webapp-jsf3-primefaces/src/main/webapp/form.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="19" column="86" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="19" selection-end-column="86" />
+            <state relative-caret-position="509">
+              <caret line="21" column="62" lean-forward="false" selection-start-line="21" selection-start-column="62" selection-end-line="21" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -79,11 +79,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>insert</find>
-      <find>calenda</find>
-      <find>calendar</find>
-      <find>p:calendar</find>
-      <find>&lt;</find>
       <find>&lt;p:me</find>
       <find>&lt;p:mess</find>
       <find>&lt;p:mes</find>
@@ -109,6 +104,11 @@
       <find>class=&quot;p-field p-g&quot;</find>
       <find>class=&quot;p-field p-gr&quot;</find>
       <find>class=&quot;p-field p-grid&quot;</find>
+      <find>u</find>
+      <find>upda</find>
+      <find>update</find>
+      <find>aja</find>
+      <find>ajax</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -142,10 +142,10 @@
         <option value="$PROJECT_DIR$/seccion33-MultiLenguaje-i18n/9_webapp-jsf3[multi-lenguaje]/src/main/java/org/aguzman/webapp/jsf3/controllers/LenguajeController.java" />
         <option value="$PROJECT_DIR$/seccion33-MultiLenguaje-i18n/9_webapp-jsf3[multi-lenguaje]/src/main/java/org/aguzman/webapp/jsf3/controllers/ProductoController.java" />
         <option value="$PROJECT_DIR$/seccion33-MultiLenguaje-i18n/9_webapp-jsf3[multi-lenguaje]/src/main/webapp/WEB-INF/layouts/main.xhtml" />
-        <option value="$PROJECT_DIR$/seccion34-primefaces/webapp-jsf3-primefaces/src/main/webapp/form.xhtml" />
         <option value="$PROJECT_DIR$/seccion34-primefaces/webapp-jsf3-primefaces/src/main/webapp/WEB-INF/layouts/main.xhtml" />
         <option value="$PROJECT_DIR$/seccion34-primefaces/3_webapp-jsf3-primefaces[buscador_ajax]/webapp-jsf3-primefaces/src/main/webapp/WEB-INF/layouts/main.xhtml" />
         <option value="$PROJECT_DIR$/seccion34-primefaces/2_webapp-jsf3-primefaces[paneles_ajax]/webapp-jsf3-primefaces/src/main/webapp/form.xhtml" />
+        <option value="$PROJECT_DIR$/seccion34-primefaces/webapp-jsf3-primefaces/src/main/webapp/form.xhtml" />
       </list>
     </option>
   </component>
@@ -1122,12 +1122,12 @@
       <workItem from="1650987531774" duration="199000" />
       <workItem from="1651049759724" duration="1847000" />
       <workItem from="1651140974604" duration="723000" />
-      <workItem from="1651144743686" duration="829000" />
+      <workItem from="1651144743686" duration="1532000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61766000" />
+    <option name="totallyTimeSpent" value="62469000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="540" y="-18" width="3318" height="2196" extended-state="0" />
@@ -1146,7 +1146,7 @@
       <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39811215" sideWeight="0.4965278" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36489898" sideWeight="0.48509935" order="9" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36489898" sideWeight="0.48509935" order="9" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24968435" sideWeight="0.49002603" order="8" side_tool="false" content_ui="tabs" />
@@ -1506,14 +1506,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/seccion34-primefaces/webapp-jsf3-primefaces/src/main/webapp/form.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2856">
-          <caret line="51" column="46" lean-forward="false" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="79" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/seccion34-primefaces/webapp-jsf3-primefaces/src/main/webapp/WEB-INF/layouts/main.xhtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="896">
@@ -1532,8 +1524,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/seccion34-primefaces/2_webapp-jsf3-primefaces[paneles_ajax]/webapp-jsf3-primefaces/src/main/webapp/form.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="19" column="86" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="19" selection-end-column="86" />
+        <state relative-caret-position="509">
+          <caret line="21" column="62" lean-forward="false" selection-start-line="21" selection-start-column="62" selection-end-line="21" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seccion34-primefaces/webapp-jsf3-primefaces/src/main/webapp/form.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="53" column="110" lean-forward="true" selection-start-line="52" selection-start-column="19" selection-end-line="53" selection-end-column="110" />
           <folding />
         </state>
       </provider>

@@ -50,8 +50,10 @@
                     <p:message for="categoria" style="color:red;"/>
 
                     <!--Por defecto viene ajax habilitado, lo deshabilitamos-->
+                   <!-- Para que funcione con ajax="false" y actualize los mensajes de error, debmos colocar update=@form,
+                    actualiza el formulario en caso de que encuentre mensajes de error, muy importante el @-->
                     <p:commandButton value="#{producto.id>0? msg['producto.boton.editar']: msg['producto.boton.crear']}" action="#{productoController.guardar}"
-                                     class="ui-button-outlined ui-button-success" ajax="false"/>
+                                     class="ui-button-outlined ui-button-success" update="@form"/>
                     <h:inputHidden value="#{producto.id}"/>
                     <p>&#160;</p>
                 </p:panelGrid>
