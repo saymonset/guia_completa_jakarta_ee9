@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5fd7e7ad-791a-4780-8158-95d0c9a3fb58" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/seccion34-primefaces/3_webapp-jsf3-primefaces[buscador_ajax]/webapp-jsf3-primefaces/src/main/webapp/index.xhtml" afterPath="$PROJECT_DIR$/seccion34-primefaces/3_webapp-jsf3-primefaces[buscador_ajax]/webapp-jsf3-primefaces/src/main/webapp/index.xhtml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,8 +18,18 @@
       <file leaf-file-name="index.xhtml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/seccion34-primefaces/3_webapp-jsf3-primefaces[buscador_ajax]/webapp-jsf3-primefaces/src/main/webapp/index.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="24" column="70" lean-forward="true" selection-start-line="24" selection-start-column="70" selection-end-line="24" selection-end-column="70" />
+            <state relative-caret-position="285">
+              <caret line="23" column="24" lean-forward="false" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="109" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductoController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/seccion34-primefaces/3_webapp-jsf3-primefaces[buscador_ajax]/webapp-jsf3-primefaces/src/main/java/org/aguzman/webapp/jsf3/controllers/ProductoController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="371">
+              <caret line="99" column="22" lean-forward="false" selection-start-line="99" selection-start-column="16" selection-end-line="99" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -28,8 +39,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&lt;p:</find>
-      <find>&lt;p:divi</find>
       <find>&lt;p:divid</find>
       <find>&lt;p:divide</find>
       <find>&lt;p:divider</find>
@@ -58,6 +67,8 @@
       <find>k</find>
       <find>key</find>
       <find>keyup</find>
+      <find>productoController</find>
+      <find>buscar</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -95,6 +106,7 @@
         <option value="$PROJECT_DIR$/seccion34-primefaces/3_webapp-jsf3-primefaces[buscador_ajax]/webapp-jsf3-primefaces/src/main/webapp/WEB-INF/layouts/main.xhtml" />
         <option value="$PROJECT_DIR$/seccion34-primefaces/2_webapp-jsf3-primefaces[paneles_ajax]/webapp-jsf3-primefaces/src/main/webapp/form.xhtml" />
         <option value="$PROJECT_DIR$/seccion34-primefaces/webapp-jsf3-primefaces/src/main/webapp/form.xhtml" />
+        <option value="$PROJECT_DIR$/seccion34-primefaces/3_webapp-jsf3-primefaces[buscador_ajax]/webapp-jsf3-primefaces/src/main/webapp/index.xhtml" />
       </list>
     </option>
   </component>
@@ -508,6 +520,110 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guia_completa_jakarta_ee9" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guia_completa_jakarta_ee9" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="seccion34-primefaces" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3_webapp-jsf3-primefaces[buscador_ajax]" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp-jsf3-primefaces" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aguzman" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsf3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guia_completa_jakarta_ee9" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guia_completa_jakarta_ee9" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="seccion34-primefaces" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3_webapp-jsf3-primefaces[buscador_ajax]" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp-jsf3-primefaces" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aguzman" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsf3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1071,16 +1187,15 @@
       <workItem from="1650987531774" duration="199000" />
       <workItem from="1651049759724" duration="1847000" />
       <workItem from="1651140974604" duration="723000" />
-      <workItem from="1651144743686" duration="2173000" />
+      <workItem from="1651144743686" duration="2394000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63110000" />
+    <option name="totallyTimeSpent" value="63331000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="540" y="-18" width="3318" height="2196" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32981676" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1093,7 +1208,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32981676" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43864518" sideWeight="0.49783424" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39811215" sideWeight="0.4965278" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39811215" sideWeight="0.4965278" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36489898" sideWeight="0.48509935" order="9" side_tool="false" content_ui="combo" />
@@ -1134,13 +1249,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/seccion22-jpa-hibernte-asociaciones/3_OneToMany_remove_hijos/hibernate-jpa-asociaciones-app/src/main/java/org/aguzman/hibernateapp/entity/Factura.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-336">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/seccion22-jpa-hibernte-asociaciones/3_OneToMany_remove_hijos/hibernate-jpa-asociaciones-app/src/main/java/org/aguzman/hibernateapp/entity/Cliente.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-168">
@@ -1481,10 +1589,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/seccion34-primefaces/3_webapp-jsf3-primefaces[buscador_ajax]/webapp-jsf3-primefaces/src/main/java/org/aguzman/webapp/jsf3/controllers/ProductoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="99" column="22" lean-forward="false" selection-start-line="99" selection-start-column="16" selection-end-line="99" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/seccion34-primefaces/3_webapp-jsf3-primefaces[buscador_ajax]/webapp-jsf3-primefaces/src/main/webapp/index.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="24" column="70" lean-forward="true" selection-start-line="24" selection-start-column="70" selection-end-line="24" selection-end-column="70" />
+        <state relative-caret-position="285">
+          <caret line="23" column="24" lean-forward="false" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="109" />
           <folding />
         </state>
       </provider>

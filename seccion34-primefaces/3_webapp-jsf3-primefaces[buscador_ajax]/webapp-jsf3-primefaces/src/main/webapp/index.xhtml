@@ -23,6 +23,7 @@
                     <div class="p-col">
                         Con listener en ajax, buscamos por el metodo la palabra que se crea con eventos keyup
                         <p:inputText id="textoBuscar" value="#{productoController.textoBuscar}" placeholder="Buscar">
+                            <!--la separacion de update es por espacio-->
                             <p:ajax listener="#{productoController.buscar}" event="keyup" update="mostrar tabla"/>
                         </p:inputText>
                     </div>
