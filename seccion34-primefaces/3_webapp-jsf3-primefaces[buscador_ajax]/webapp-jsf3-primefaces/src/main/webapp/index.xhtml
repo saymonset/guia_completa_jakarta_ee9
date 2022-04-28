@@ -21,6 +21,7 @@
                 <div class="p-field p-grid p-my-2">
                     <label for="textoBuscar" class="p-col-fixed" style="width:100px">Buscar</label>
                     <div class="p-col">
+                        Con listener en ajax, buscamos por el metodo la palabra que se crea con eventos keyup
                         <p:inputText id="textoBuscar" value="#{productoController.textoBuscar}" placeholder="Buscar">
                             <p:ajax listener="#{productoController.buscar}" event="keyup" update="mostrar tabla"/>
                         </p:inputText>
