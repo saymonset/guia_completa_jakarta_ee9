@@ -25,13 +25,18 @@
                 <groupId>com.sun.xml.ws</groupId>
                 <artifactId>jaxws-maven-plugin</artifactId>
                 <version>3.0.1</version>
+                <!--Con execution terminamos de configurar el plugin para
+                que nos genere de forma automatica el cliente-->
                 <executions>
                     <execution>
                         <goals>
+                            <!--Con wsimport genera todo el cliente del
+                            servicio web-->
                             <goal>wsimport</goal>
                         </goals>
                         <configuration>
                             <wsdlUrls>
+                                <!--Ruta del webservice Soap-->
                                 <wsdlUrl>http://localhost:8080/webapp-jaxws-jpa/CursoServicioWsImpl?wsdl</wsdlUrl>
                             </wsdlUrls>
                         </configuration>
