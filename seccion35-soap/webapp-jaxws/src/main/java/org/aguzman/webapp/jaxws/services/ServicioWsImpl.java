@@ -6,11 +6,18 @@ import org.aguzman.webapp.jaxws.models.Curso;
 
 import java.util.Arrays;
 import java.util.List;
-
+/** @WebService: Parte de la especificacion JAX-WS*/
+/*Con esta instruccion le digo que solo los metodos de esa interface son
+los que se van a publicar o exponer en el WS,
+Una clase puede implementar mas de una interfaces, pero con endpointInterface aseguramos
+que solo esos metodos sean los que se publiquen*/
 @WebService(endpointInterface = "org.aguzman.webapp.jaxws.services.ServicioWs")
 public class ServicioWsImpl implements ServicioWs{
     private int contador;
 
+
+    /*Para que estos metodos sean publicados en los servicios soap webservices
+    deben estar anotados con @WebMethod*/
     @Override
     @WebMethod
     public String saludar(String persona) {
