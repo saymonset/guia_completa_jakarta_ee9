@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5fd7e7ad-791a-4780-8158-95d0c9a3fb58" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/seccion34-primefaces/4_webapp-jsf3-primefaces[modal_ajax]/webapp-jsf3-primefaces/src/main/webapp/WEB-INF/layouts/main.xhtml" afterPath="$PROJECT_DIR$/seccion34-primefaces/4_webapp-jsf3-primefaces[modal_ajax]/webapp-jsf3-primefaces/src/main/webapp/WEB-INF/layouts/main.xhtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/seccion34-primefaces/4_webapp-jsf3-primefaces[modal_ajax]/webapp-jsf3-primefaces/src/main/webapp/index.xhtml" afterPath="$PROJECT_DIR$/seccion34-primefaces/4_webapp-jsf3-primefaces[modal_ajax]/webapp-jsf3-primefaces/src/main/webapp/index.xhtml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,8 +38,8 @@
       <file leaf-file-name="main.xhtml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/seccion34-primefaces/4_webapp-jsf3-primefaces[modal_ajax]/webapp-jsf3-primefaces/src/main/webapp/WEB-INF/layouts/main.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="33" column="32" lean-forward="false" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+            <state relative-caret-position="561">
+              <caret line="39" column="18" lean-forward="true" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -49,8 +48,8 @@
       <file leaf-file-name="index.xhtml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/seccion34-primefaces/4_webapp-jsf3-primefaces[modal_ajax]/webapp-jsf3-primefaces/src/main/webapp/index.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="17" column="54" lean-forward="false" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="54" />
+            <state relative-caret-position="287">
+              <caret line="78" column="20" lean-forward="false" selection-start-line="78" selection-start-column="16" selection-end-line="78" selection-end-column="125" />
               <folding />
             </state>
           </provider>
@@ -61,7 +60,27 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="4536">
               <caret line="99" column="22" lean-forward="false" selection-start-line="99" selection-start-column="16" selection-end-line="99" selection-end-column="22" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#967#968#0" expanded="false" />
+                <element signature="e#1014#1015#0" expanded="false" />
+                <element signature="e#1783#1784#0" expanded="false" />
+                <element signature="e#1832#1833#0" expanded="false" />
+                <element signature="e#2778#2779#0" expanded="false" />
+                <element signature="e#2850#2851#0" expanded="false" />
+                <element signature="e#2877#2878#0" expanded="false" />
+                <element signature="e#2902#2903#0" expanded="false" />
+                <element signature="e#2936#2937#0" expanded="false" />
+                <element signature="e#2964#2965#0" expanded="false" />
+                <element signature="e#3006#3007#0" expanded="false" />
+                <element signature="e#3036#3037#0" expanded="false" />
+                <element signature="e#3090#3091#0" expanded="false" />
+                <element signature="e#3128#3129#0" expanded="false" />
+                <element signature="e#3166#3167#0" expanded="false" />
+                <element signature="e#3200#3201#0" expanded="false" />
+                <element signature="e#3254#3255#0" expanded="false" />
+                <element signature="e#3300#3301#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -70,9 +89,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>class=&quot;p-field&quot;</find>
-      <find>class=&quot;p-field &quot;</find>
-      <find>class=&quot;p-field p&quot;</find>
       <find>class=&quot;p-field p-&quot;</find>
       <find>class=&quot;p-field p-g&quot;</find>
       <find>class=&quot;p-field p-gr&quot;</find>
@@ -90,9 +106,7 @@
       <find>f</find>
       <find>for</find>
       <find>formP</find>
-      <find>&lt;</find>
       <find>&lt;p:</find>
-      <find>&lt;p:a</find>
       <find>&lt;p:au</find>
       <find>&lt;p:aut</find>
       <find>&lt;p:auto</find>
@@ -100,6 +114,11 @@
       <find>r</find>
       <find>reset</find>
       <find>formProducto</find>
+      <find>&lt;</find>
+      <find>&lt;p:a</find>
+      <find>&lt;p:aj</find>
+      <find>&lt;p:aja</find>
+      <find>&lt;p:ajax</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -1222,16 +1241,15 @@
       <workItem from="1651140974604" duration="723000" />
       <workItem from="1651144743686" duration="4649000" />
       <workItem from="1651223628619" duration="781000" />
-      <workItem from="1651496731805" duration="813000" />
+      <workItem from="1651496731805" duration="1229000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67180000" />
+    <option name="totallyTimeSpent" value="67596000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="540" y="-18" width="3318" height="2196" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32981676" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1244,7 +1262,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32981676" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43864518" sideWeight="0.49783424" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4047751" sideWeight="0.4965278" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4047751" sideWeight="0.4965278" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36489898" sideWeight="0.48509935" order="9" side_tool="false" content_ui="combo" />
@@ -1602,7 +1620,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4536">
           <caret line="99" column="22" lean-forward="false" selection-start-line="99" selection-start-column="16" selection-end-line="99" selection-end-column="22" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#967#968#0" expanded="false" />
+            <element signature="e#1014#1015#0" expanded="false" />
+            <element signature="e#1783#1784#0" expanded="false" />
+            <element signature="e#1832#1833#0" expanded="false" />
+            <element signature="e#2778#2779#0" expanded="false" />
+            <element signature="e#2850#2851#0" expanded="false" />
+            <element signature="e#2877#2878#0" expanded="false" />
+            <element signature="e#2902#2903#0" expanded="false" />
+            <element signature="e#2936#2937#0" expanded="false" />
+            <element signature="e#2964#2965#0" expanded="false" />
+            <element signature="e#3006#3007#0" expanded="false" />
+            <element signature="e#3036#3037#0" expanded="false" />
+            <element signature="e#3090#3091#0" expanded="false" />
+            <element signature="e#3128#3129#0" expanded="false" />
+            <element signature="e#3166#3167#0" expanded="false" />
+            <element signature="e#3200#3201#0" expanded="false" />
+            <element signature="e#3254#3255#0" expanded="false" />
+            <element signature="e#3300#3301#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1610,14 +1648,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4256">
           <caret line="76" column="29" lean-forward="false" selection-start-line="76" selection-start-column="29" selection-end-line="76" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seccion34-primefaces/4_webapp-jsf3-primefaces[modal_ajax]/webapp-jsf3-primefaces/src/main/webapp/WEB-INF/layouts/main.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="33" column="32" lean-forward="false" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -1630,10 +1660,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/seccion34-primefaces/4_webapp-jsf3-primefaces[modal_ajax]/webapp-jsf3-primefaces/src/main/webapp/WEB-INF/layouts/main.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="39" column="18" lean-forward="true" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/seccion34-primefaces/4_webapp-jsf3-primefaces[modal_ajax]/webapp-jsf3-primefaces/src/main/webapp/index.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="17" column="54" lean-forward="false" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="54" />
+        <state relative-caret-position="287">
+          <caret line="78" column="20" lean-forward="false" selection-start-line="78" selection-start-column="16" selection-end-line="78" selection-end-column="125" />
           <folding />
         </state>
       </provider>
