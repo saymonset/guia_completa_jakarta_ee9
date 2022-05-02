@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5fd7e7ad-791a-4780-8158-95d0c9a3fb58" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/seccion34-primefaces/3_webapp-jsf3-primefaces[buscador_ajax]/webapp-jsf3-primefaces/src/main/webapp/index.xhtml" afterPath="$PROJECT_DIR$/seccion34-primefaces/3_webapp-jsf3-primefaces[buscador_ajax]/webapp-jsf3-primefaces/src/main/webapp/index.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/seccion34-primefaces/4_webapp-jsf3-primefaces[modal_ajax]/webapp-jsf3-primefaces/src/main/webapp/WEB-INF/layouts/main.xhtml" afterPath="$PROJECT_DIR$/seccion34-primefaces/4_webapp-jsf3-primefaces[modal_ajax]/webapp-jsf3-primefaces/src/main/webapp/WEB-INF/layouts/main.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/seccion34-primefaces/4_webapp-jsf3-primefaces[modal_ajax]/webapp-jsf3-primefaces/src/main/webapp/index.xhtml" afterPath="$PROJECT_DIR$/seccion34-primefaces/4_webapp-jsf3-primefaces[modal_ajax]/webapp-jsf3-primefaces/src/main/webapp/index.xhtml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,11 +16,41 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="index.xhtml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.xhtml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/seccion34-primefaces/3_webapp-jsf3-primefaces[buscador_ajax]/webapp-jsf3-primefaces/src/main/webapp/index.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="23" column="24" lean-forward="false" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="109" />
+            <state relative-caret-position="4256">
+              <caret line="76" column="29" lean-forward="false" selection-start-line="76" selection-start-column="29" selection-end-line="76" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="form.xhtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/seccion34-primefaces/4_webapp-jsf3-primefaces[modal_ajax]/webapp-jsf3-primefaces/src/main/webapp/form.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.xhtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/seccion34-primefaces/4_webapp-jsf3-primefaces[modal_ajax]/webapp-jsf3-primefaces/src/main/webapp/WEB-INF/layouts/main.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="33" column="32" lean-forward="false" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.xhtml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/seccion34-primefaces/4_webapp-jsf3-primefaces[modal_ajax]/webapp-jsf3-primefaces/src/main/webapp/index.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="313">
+              <caret line="17" column="54" lean-forward="false" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -28,7 +59,7 @@
       <file leaf-file-name="ProductoController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/seccion34-primefaces/3_webapp-jsf3-primefaces[buscador_ajax]/webapp-jsf3-primefaces/src/main/java/org/aguzman/webapp/jsf3/controllers/ProductoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
+            <state relative-caret-position="4536">
               <caret line="99" column="22" lean-forward="false" selection-start-line="99" selection-start-column="16" selection-end-line="99" selection-end-column="22" />
               <folding />
             </state>
@@ -39,19 +70,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&lt;p:divid</find>
-      <find>&lt;p:divide</find>
-      <find>&lt;p:divider</find>
-      <find>c</find>
-      <find>class</find>
-      <find>class=</find>
-      <find>class=&quot;</find>
-      <find>class=&quot;-&quot;</find>
-      <find>class=&quot;&quot;</find>
-      <find>class=&quot;p&quot;</find>
-      <find>class=&quot;p-&quot;</find>
-      <find>class=&quot;p-f&quot;</find>
-      <find>class=&quot;p-fie&quot;</find>
       <find>class=&quot;p-field&quot;</find>
       <find>class=&quot;p-field &quot;</find>
       <find>class=&quot;p-field p&quot;</find>
@@ -69,6 +87,19 @@
       <find>keyup</find>
       <find>productoController</find>
       <find>buscar</find>
+      <find>f</find>
+      <find>for</find>
+      <find>formP</find>
+      <find>&lt;</find>
+      <find>&lt;p:</find>
+      <find>&lt;p:a</find>
+      <find>&lt;p:au</find>
+      <find>&lt;p:aut</find>
+      <find>&lt;p:auto</find>
+      <find>&lt;p:autoU</find>
+      <find>r</find>
+      <find>reset</find>
+      <find>formProducto</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -107,6 +138,8 @@
         <option value="$PROJECT_DIR$/seccion34-primefaces/2_webapp-jsf3-primefaces[paneles_ajax]/webapp-jsf3-primefaces/src/main/webapp/form.xhtml" />
         <option value="$PROJECT_DIR$/seccion34-primefaces/webapp-jsf3-primefaces/src/main/webapp/form.xhtml" />
         <option value="$PROJECT_DIR$/seccion34-primefaces/3_webapp-jsf3-primefaces[buscador_ajax]/webapp-jsf3-primefaces/src/main/webapp/index.xhtml" />
+        <option value="$PROJECT_DIR$/seccion34-primefaces/4_webapp-jsf3-primefaces[modal_ajax]/webapp-jsf3-primefaces/src/main/webapp/WEB-INF/layouts/main.xhtml" />
+        <option value="$PROJECT_DIR$/seccion34-primefaces/4_webapp-jsf3-primefaces[modal_ajax]/webapp-jsf3-primefaces/src/main/webapp/index.xhtml" />
       </list>
     </option>
   </component>
@@ -1187,15 +1220,18 @@
       <workItem from="1650987531774" duration="199000" />
       <workItem from="1651049759724" duration="1847000" />
       <workItem from="1651140974604" duration="723000" />
-      <workItem from="1651144743686" duration="2394000" />
+      <workItem from="1651144743686" duration="4649000" />
+      <workItem from="1651223628619" duration="781000" />
+      <workItem from="1651496731805" duration="813000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63331000" />
+    <option name="totallyTimeSpent" value="67180000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="540" y="-18" width="3318" height="2196" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32981676" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1208,7 +1244,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32981676" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43864518" sideWeight="0.49783424" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39811215" sideWeight="0.4965278" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4047751" sideWeight="0.4965278" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36489898" sideWeight="0.48509935" order="9" side_tool="false" content_ui="combo" />
@@ -1249,27 +1285,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/seccion22-jpa-hibernte-asociaciones/3_OneToMany_remove_hijos/hibernate-jpa-asociaciones-app/src/main/java/org/aguzman/hibernateapp/entity/Cliente.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-168">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seccion22-jpa-hibernte-asociaciones/4_OneToMany_bidireccional/hibernate-jpa-asociaciones-app/src/main/java/org/aguzman/hibernateapp/entity/Cliente.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seccion22-jpa-hibernte-asociaciones/6_OneToOne_bidireccional/hibernate-jpa-asociaciones-app/src/main/java/org/aguzman/hibernateapp/entity/Cliente.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1792">
-          <caret line="36" column="41" lean-forward="false" selection-start-line="34" selection-start-column="47" selection-end-line="36" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/seccion22-jpa-hibernte-asociaciones/7_appManyToMany/hibernate-jpa-asociaciones-app/src/main/java/org/aguzman/hibernateapp/entity/Curso.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1470,33 +1485,33 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/seccion33-MultiLenguaje-i18n/9_webapp-jsf3[multi-lenguaje]/src/main/resources/messages_es.properties">
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
-      </provider>
-      <provider editor-type-id="ResourceBundle">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/seccion33-MultiLenguaje-i18n/9_webapp-jsf3[multi-lenguaje]/src/main/resources/messages_en.properties">
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seccion33-MultiLenguaje-i18n/9_webapp-jsf3[multi-lenguaje]/src/main/resources/messages.properties">
       <provider editor-type-id="ResourceBundle">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seccion33-MultiLenguaje-i18n/9_webapp-jsf3[multi-lenguaje]/src/main/resources/messages.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="952">
           <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
         </state>
-      </provider>
-      <provider editor-type-id="ResourceBundle">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/seccion33-MultiLenguaje-i18n/9_webapp-jsf3[multi-lenguaje]/src/main/java/org/aguzman/webapp/jsf3/controllers/LenguajeController.java">
@@ -1545,7 +1560,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1553,7 +1567,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1561,7 +1574,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="896">
           <caret line="16" column="38" lean-forward="false" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1569,7 +1581,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="333">
           <caret line="33" column="25" lean-forward="true" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1577,7 +1588,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="509">
           <caret line="21" column="62" lean-forward="false" selection-start-line="21" selection-start-column="62" selection-end-line="21" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1585,13 +1595,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="815">
           <caret line="59" column="21" lean-forward="true" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/seccion34-primefaces/3_webapp-jsf3-primefaces[buscador_ajax]/webapp-jsf3-primefaces/src/main/java/org/aguzman/webapp/jsf3/controllers/ProductoController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
+        <state relative-caret-position="4536">
           <caret line="99" column="22" lean-forward="false" selection-start-line="99" selection-start-column="16" selection-end-line="99" selection-end-column="22" />
           <folding />
         </state>
@@ -1599,8 +1608,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/seccion34-primefaces/3_webapp-jsf3-primefaces[buscador_ajax]/webapp-jsf3-primefaces/src/main/webapp/index.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="23" column="24" lean-forward="false" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="109" />
+        <state relative-caret-position="4256">
+          <caret line="76" column="29" lean-forward="false" selection-start-line="76" selection-start-column="29" selection-end-line="76" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seccion34-primefaces/4_webapp-jsf3-primefaces[modal_ajax]/webapp-jsf3-primefaces/src/main/webapp/WEB-INF/layouts/main.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="33" column="32" lean-forward="false" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seccion34-primefaces/4_webapp-jsf3-primefaces[modal_ajax]/webapp-jsf3-primefaces/src/main/webapp/form.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seccion34-primefaces/4_webapp-jsf3-primefaces[modal_ajax]/webapp-jsf3-primefaces/src/main/webapp/index.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="17" column="54" lean-forward="false" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="54" />
           <folding />
         </state>
       </provider>

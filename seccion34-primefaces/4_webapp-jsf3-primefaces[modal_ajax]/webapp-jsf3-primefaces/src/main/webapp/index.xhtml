@@ -14,6 +14,7 @@
             <p:divider/>
             <h:form id="crearForm">
                 <p:commandButton value="#{msg['navbar.texto.crear']}" class="p-my-2" onclick="PF('dialogForm').show()" icon="pi pi-plus-circle">
+                    <!--Cada vez que hagamos click, se reseteara el formulario-->
                     <p:resetInput target="formProducto" />
                 </p:commandButton>
             </h:form>
