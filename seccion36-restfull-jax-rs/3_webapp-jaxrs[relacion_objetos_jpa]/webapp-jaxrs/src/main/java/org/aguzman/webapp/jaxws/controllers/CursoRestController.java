@@ -24,6 +24,8 @@ en su vista.Por ninguna parte hacemos referencia al nombre del controlador*/
 /*@XmlRootElement, Esto es solo para respuestas xm en el restFull para que tome la raiz del xml en este entity, para el json
 no es necesario*/
 
+/*Produce es la forma global de las respuestas de los metodos*/
+/*Consumes es lo que envian hacia los metodos*/
 @Produces(MediaType.APPLICATION_JSON)
 public class CursoRestController {
 
@@ -63,7 +65,12 @@ public class CursoRestController {
         return Response.status(Response.Status.NOT_FOUND).build();
     }
 
+    /*Ingresar un nuevo objeto, no tiene @Path*/
     @POST
+    //Estamos enviando el xml o json en el body, pero automaticamente este xml o json se ingreso en el parametro o argumento
+    //curso automaticamente
+    //En que formato vamos a consumirlo, lo anotamo en json
+    //consume ess lo que nos envian
     @Consumes(MediaType.APPLICATION_JSON)
     public Response crear(Curso curso) {
         try {
@@ -100,6 +107,7 @@ public class CursoRestController {
     }
 
     @DELETE
+    /*Todas las rutas empiezan con ese /, @Path("/{id}") , No olvidar*/
     @Path("/{id}")
     public Response eliminar(@PathParam("id") Long id) {
         Optional<Curso> cursoOptional = service.porId(id);
