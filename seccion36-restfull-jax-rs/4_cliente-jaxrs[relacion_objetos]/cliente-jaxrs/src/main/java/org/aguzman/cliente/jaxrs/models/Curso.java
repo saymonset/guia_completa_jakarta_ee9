@@ -2,6 +2,8 @@ package org.aguzman.cliente.jaxrs.models;
 
 import jakarta.xml.bind.annotation.XmlRootElement;
 
+/*Este es el jdo que recibira los datos del backend*/
+/*@XmlRootElement: Esto es solo si la respuesta del backend viene con xml */
 @XmlRootElement
 public class Curso {
     private Long id;

@@ -15,7 +15,11 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
 
+       /* Aqui consumimos un servicio rest
+        usando la especificacion jax-rs y la implementacion resteasy
+        jakarta.ws.rs.client.Client:  Este codigo es transparente para cualquier implementacion*/
         Client client = ClientBuilder.newClient();
+        /*Uri base vamos a tener*/
         WebTarget rootUri = client.target("http://localhost:8080/webapp-jaxrs/api").path("/cursos");
 
         System.out.println("==================== por id");
