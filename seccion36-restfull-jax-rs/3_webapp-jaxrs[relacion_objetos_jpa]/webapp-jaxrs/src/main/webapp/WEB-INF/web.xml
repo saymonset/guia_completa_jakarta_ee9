@@ -11,6 +11,8 @@
         <servlet-name>jakarta.ws.rs.core.Application</servlet-name>
     </servlet>
     <servlet-mapping>
+        Todas nuestras apis rest de este proyecto, van a estar
+        en esta url base /api/*
         <servlet-name>jakarta.ws.rs.core.Application</servlet-name>
         <url-pattern>/api/*</url-pattern>
     </servlet-mapping>

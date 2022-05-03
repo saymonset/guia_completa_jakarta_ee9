@@ -6,6 +6,8 @@ import jakarta.persistence.*;
 import jakarta.xml.bind.annotation.XmlRootElement;
 import jakarta.xml.bind.annotation.XmlTransient;
 
+/*Esto es solo para respuestas xm en el restFull para que tome la raiz del xml en este entity, para el json
+no es necesario*/
 @XmlRootElement
 @Entity
 @Table(name="cursos")
