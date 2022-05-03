@@ -49,6 +49,7 @@ public class Main {
                 de dato. Viene de jakarta.ws.rs.client*/
   /*Este es el tipo de contenido que vamos a enviar en el request <Curso>*/
 /*cursoNuevo es lo que enviamo en el cuerpo*/
+/*Los entity de ws.rs pueden mandar token en accept*/
         Entity<Curso> entityHeader = Entity.entity(cursoNuevo, MediaType.APPLICATION_JSON);
         curso = rootUri.request(MediaType.APPLICATION_JSON)
                 .post(entityHeader, Curso.class);
