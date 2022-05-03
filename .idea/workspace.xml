@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5fd7e7ad-791a-4780-8158-95d0c9a3fb58" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/seccion36-restfull-jax-rs/3_webapp-jaxrs[relacion_objetos_jpa]/webapp-jaxrs/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/seccion36-restfull-jax-rs/3_webapp-jaxrs[relacion_objetos_jpa]/webapp-jaxrs/src/main/webapp/WEB-INF/web.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -916,12 +915,12 @@
       <workItem from="1651144743686" duration="4649000" />
       <workItem from="1651223628619" duration="781000" />
       <workItem from="1651496731805" duration="8170000" />
-      <workItem from="1651574074376" duration="1657000" />
+      <workItem from="1651574074376" duration="1751000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76194000" />
+    <option name="totallyTimeSpent" value="76288000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="526" y="-18" width="3332" height="2196" extended-state="6" />
