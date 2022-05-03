@@ -44,7 +44,11 @@ public class Main {
         instructor.setNombre("Pepe");
         instructor.setApellido("Doe");
         cursoNuevo.setInstructor(instructor);
-
+/*
+        Entity no es un objeto de jpa, es un objeto que vamos a guardar en el request y esta asociado a un tipo
+                de dato. Viene de jakarta.ws.rs.client*/
+  /*Este es el tipo de contenido que vamos a enviar en el request <Curso>*/
+/*cursoNuevo es lo que enviamo en el cuerpo*/
         Entity<Curso> entityHeader = Entity.entity(cursoNuevo, MediaType.APPLICATION_JSON);
         curso = rootUri.request(MediaType.APPLICATION_JSON)
                 .post(entityHeader, Curso.class);
