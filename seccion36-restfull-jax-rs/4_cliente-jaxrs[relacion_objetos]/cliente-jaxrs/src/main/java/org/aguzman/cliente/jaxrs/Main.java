@@ -23,6 +23,7 @@ public class Main {
         WebTarget rootUri = client.target("http://localhost:8080/webapp-jaxrs/api").path("/cursos");
 
         System.out.println("==================== por id");
+        /*La url mas el id que debemos buscar en el path*/
         Response response = rootUri.path("/2")
                 .request(MediaType.APPLICATION_JSON).get();
         Curso curso = response.readEntity(Curso.class);
@@ -71,6 +72,7 @@ public class Main {
         Response response;
         response = rootUri.request(MediaType.APPLICATION_JSON)
                 .get();
+       /* Las llaves porque estamos un tipo generico de tipo list*/
         List<Curso> cursos = response.readEntity(new GenericType<List<Curso>>(){});
         cursos.forEach(System.out::println);
     }

@@ -4,7 +4,6 @@
     <list default="true" id="5fd7e7ad-791a-4780-8158-95d0c9a3fb58" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/seccion36-restfull-jax-rs/4_cliente-jaxrs[relacion_objetos]/cliente-jaxrs/src/main/java/org/aguzman/cliente/jaxrs/Main.java" afterPath="$PROJECT_DIR$/seccion36-restfull-jax-rs/4_cliente-jaxrs[relacion_objetos]/cliente-jaxrs/src/main/java/org/aguzman/cliente/jaxrs/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/seccion36-restfull-jax-rs/4_cliente-jaxrs[relacion_objetos]/cliente-jaxrs/src/main/java/org/aguzman/cliente/jaxrs/models/Curso.java" afterPath="$PROJECT_DIR$/seccion36-restfull-jax-rs/4_cliente-jaxrs[relacion_objetos]/cliente-jaxrs/src/main/java/org/aguzman/cliente/jaxrs/models/Curso.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,8 +38,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/seccion36-restfull-jax-rs/4_cliente-jaxrs[relacion_objetos]/cliente-jaxrs/src/main/java/org/aguzman/cliente/jaxrs/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="17" column="39" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="42" />
+            <state relative-caret-position="1112">
+              <caret line="74" column="65" lean-forward="false" selection-start-line="74" selection-start-column="7" selection-end-line="74" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -840,12 +839,12 @@
       <workItem from="1651144743686" duration="4649000" />
       <workItem from="1651223628619" duration="781000" />
       <workItem from="1651496731805" duration="8170000" />
-      <workItem from="1651574074376" duration="9950000" />
+      <workItem from="1651574074376" duration="10948000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84487000" />
+    <option name="totallyTimeSpent" value="85485000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="526" y="-18" width="3332" height="2196" extended-state="6" />
@@ -1280,8 +1279,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/seccion36-restfull-jax-rs/4_cliente-jaxrs[relacion_objetos]/cliente-jaxrs/src/main/java/org/aguzman/cliente/jaxrs/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="17" column="39" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="42" />
+        <state relative-caret-position="1112">
+          <caret line="74" column="65" lean-forward="false" selection-start-line="74" selection-start-column="7" selection-end-line="74" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
