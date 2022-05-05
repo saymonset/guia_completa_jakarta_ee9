@@ -22,6 +22,8 @@ public class Curso {
 
     //@XmlTransient
 //    @JsonbTransient
+    /*Con la libreria de maven resteasy-jackson2-provider, podemos
+    usar @JsonIgnore para ignorar el entity  que no sea mapeado en el json*/
 //    @JsonIgnore
     //When is one.. for default is eager
     //put in lazy with this instruction
