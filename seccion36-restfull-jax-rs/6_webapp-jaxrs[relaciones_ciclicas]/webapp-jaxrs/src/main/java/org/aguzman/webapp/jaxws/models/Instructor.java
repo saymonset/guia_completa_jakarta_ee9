@@ -13,7 +13,14 @@ public class Instructor {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    /*recursiva referencia error resolver. con @JsonIgnoreProperties({"instructor"}),
+    no mostrara los instructor en el json curso. */
+/*    Con lazy se maneja un proxy para que se pueda comunicar y otener los objetos de carga perezosa.
+* Maneja ciertos atributos el proxy y queda como basura, cuado queda esa basura , marca un error.
+* Esos atributos los ignoramos. handler, hibernateLazyInitializer*/
 
+    /*Fix error bien extarno. un bug. Unas variables almacenadas en cache del proxy.
+    * Estas variables handler y hibernateLazyInitializer */
     @JsonIgnoreProperties({"instructor", "handler", "hibernateLazyInitializer"})
     /*Pero como es una relacion bidireccional, se mapea con mappedBy al porpertie
     mapeado en la otra entity*/

@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5fd7e7ad-791a-4780-8158-95d0c9a3fb58" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/seccion36-restfull-jax-rs/6_webapp-jaxrs[relaciones_ciclicas]/webapp-jaxrs/src/main/java/org/aguzman/webapp/jaxws/models/Curso.java" afterPath="$PROJECT_DIR$/seccion36-restfull-jax-rs/6_webapp-jaxrs[relaciones_ciclicas]/webapp-jaxrs/src/main/java/org/aguzman/webapp/jaxws/models/Curso.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/seccion36-restfull-jax-rs/6_webapp-jaxrs[relaciones_ciclicas]/webapp-jaxrs/src/main/java/org/aguzman/webapp/jaxws/models/Instructor.java" afterPath="$PROJECT_DIR$/seccion36-restfull-jax-rs/6_webapp-jaxrs[relaciones_ciclicas]/webapp-jaxrs/src/main/java/org/aguzman/webapp/jaxws/models/Instructor.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,21 +15,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="Instructor.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Instructor.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/seccion36-restfull-jax-rs/6_webapp-jaxrs[relaciones_ciclicas]/webapp-jaxrs/src/main/java/org/aguzman/webapp/jaxws/models/Instructor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="22" column="12" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="43" />
+            <state relative-caret-position="280">
+              <caret line="18" column="91" lean-forward="false" selection-start-line="18" selection-start-column="91" selection-end-line="18" selection-end-column="91" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Curso.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Curso.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/seccion36-restfull-jax-rs/6_webapp-jaxrs[relaciones_ciclicas]/webapp-jaxrs/src/main/java/org/aguzman/webapp/jaxws/models/Curso.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="392">
-              <caret line="24" column="4" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+              <caret line="24" column="130" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="130" />
               <folding />
             </state>
           </provider>
@@ -121,8 +120,8 @@
         <option value="$PROJECT_DIR$/seccion36-restfull-jax-rs/4_cliente-jaxrs[relacion_objetos]/cliente-jaxrs/src/main/java/org/aguzman/cliente/jaxrs/models/Curso.java" />
         <option value="$PROJECT_DIR$/seccion36-restfull-jax-rs/4_cliente-jaxrs[relacion_objetos]/cliente-jaxrs/src/main/java/org/aguzman/cliente/jaxrs/Main.java" />
         <option value="$PROJECT_DIR$/seccion36-restfull-jax-rs/3_webapp-jaxrs[relacion_objetos_jpa]/webapp-jaxrs/src/main/java/org/aguzman/webapp/jaxws/models/Curso.java" />
-        <option value="$PROJECT_DIR$/seccion36-restfull-jax-rs/6_webapp-jaxrs[relaciones_ciclicas]/webapp-jaxrs/src/main/java/org/aguzman/webapp/jaxws/models/Instructor.java" />
         <option value="$PROJECT_DIR$/seccion36-restfull-jax-rs/6_webapp-jaxrs[relaciones_ciclicas]/webapp-jaxrs/src/main/java/org/aguzman/webapp/jaxws/models/Curso.java" />
+        <option value="$PROJECT_DIR$/seccion36-restfull-jax-rs/6_webapp-jaxrs[relaciones_ciclicas]/webapp-jaxrs/src/main/java/org/aguzman/webapp/jaxws/models/Instructor.java" />
       </list>
     </option>
   </component>
@@ -1196,12 +1195,12 @@
       <workItem from="1651496731805" duration="8170000" />
       <workItem from="1651574074376" duration="13371000" />
       <workItem from="1651654639435" duration="615000" />
-      <workItem from="1651746086939" duration="4605000" />
+      <workItem from="1651746086939" duration="5414000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93128000" />
+    <option name="totallyTimeSpent" value="93937000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="526" y="-18" width="3332" height="2196" extended-state="6" />
@@ -1218,10 +1217,10 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32981676" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43864518" sideWeight="0.49783424" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41254857" sideWeight="0.4965278" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41254857" sideWeight="0.4965278" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37774983" sideWeight="0.48509935" order="9" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37774983" sideWeight="0.48509935" order="9" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2495286" sideWeight="0.49002603" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1619,18 +1618,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/seccion36-restfull-jax-rs/6_webapp-jaxrs[relaciones_ciclicas]/webapp-jaxrs/src/main/java/org/aguzman/webapp/jaxws/models/Instructor.java">
+    <entry file="file://$PROJECT_DIR$/seccion36-restfull-jax-rs/6_webapp-jaxrs[relaciones_ciclicas]/webapp-jaxrs/src/main/java/org/aguzman/webapp/jaxws/models/Curso.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="22" column="12" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="43" />
+        <state relative-caret-position="392">
+          <caret line="24" column="130" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="130" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/seccion36-restfull-jax-rs/6_webapp-jaxrs[relaciones_ciclicas]/webapp-jaxrs/src/main/java/org/aguzman/webapp/jaxws/models/Curso.java">
+    <entry file="file://$PROJECT_DIR$/seccion36-restfull-jax-rs/6_webapp-jaxrs[relaciones_ciclicas]/webapp-jaxrs/src/main/java/org/aguzman/webapp/jaxws/models/Instructor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="24" column="4" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+        <state relative-caret-position="280">
+          <caret line="18" column="91" lean-forward="false" selection-start-line="18" selection-start-column="91" selection-end-line="18" selection-end-column="91" />
           <folding />
         </state>
       </provider>
