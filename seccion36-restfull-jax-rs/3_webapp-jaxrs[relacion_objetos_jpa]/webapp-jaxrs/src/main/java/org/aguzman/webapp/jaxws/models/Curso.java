@@ -23,7 +23,13 @@ public class Curso {
     //@XmlTransient
 //    @JsonbTransient
 //    @JsonIgnore
+    //When is one.. for default is eager
+    //put in lazy with this instruction
     @ManyToOne(fetch = FetchType.LAZY)
+    //En la columna de la tabla curso, por defecto es instructor_id
+    //Si queremos que cambiar el nombre, usamos joinColumn, repasar l
+    /*seccion jpa*/
+
     private Instructor instructor;
 
     private Double duracion;
