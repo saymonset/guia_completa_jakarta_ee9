@@ -22,6 +22,7 @@ public class Curso {
     //@XmlTransient
 //    @JsonbTransient
 //    @JsonIgnore
+    /*recursiva referencia error resolver. con @JsonIgnoreProperties({"cursos"}), no mostrara los cursos en el json instructor. */
     @JsonIgnoreProperties({"cursos", "handler", "hibernateLazyInitializer"})
     @ManyToOne(fetch = FetchType.LAZY)
     private Instructor instructor;

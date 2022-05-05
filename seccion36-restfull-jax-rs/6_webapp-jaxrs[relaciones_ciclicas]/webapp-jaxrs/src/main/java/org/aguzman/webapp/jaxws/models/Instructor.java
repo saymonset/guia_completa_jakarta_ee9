@@ -15,6 +15,12 @@ public class Instructor {
     private Long id;
 
     @JsonIgnoreProperties({"instructor", "handler", "hibernateLazyInitializer"})
+    /*Pero como es una relacion bidireccional, se mapea con mappedBy al porpertie
+    mapeado en la otra entity*/
+    /*mappedBy es para establecer la relacion inversa con el atributo de la contraparte*/
+    /*cascade es en caso que se borra un instructor, se borra los cursos*/
+    /*en caso que se inserte un instrcutor con cursos, se insertan los cursos por cascade*/
+    /*recursiva referencia error resolver*/
     @OneToMany(mappedBy = "instructor", cascade = CascadeType.ALL)
     private List<Curso> cursos;
 
