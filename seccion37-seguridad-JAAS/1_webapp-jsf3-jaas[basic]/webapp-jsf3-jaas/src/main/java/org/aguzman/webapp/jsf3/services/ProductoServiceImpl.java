@@ -14,6 +14,7 @@ import java.util.List;
 import java.util.Optional;
 
 @Stateless
+/*aqui declaramos roles en un arreglo de string, separados por coma y engre llaves*/
 @DeclareRoles({"USER", "ADMIN"})
 public class ProductoServiceImpl implements ProductoService {
 
@@ -24,17 +25,22 @@ public class ProductoServiceImpl implements ProductoService {
     private CrudRepository<Categoria> categoriaRepository;
 
     @Override
+    /*aqui protegemos los metodos, por ejemplo, el listar le colocamos el role de publico*/
     @PermitAll
     public List<Producto> listar() {
         return repository.listar();
     }
 
+
+    /*Protegido por JAAS*/
+    /*Por id puede ser para usuarios y admisnitradore su role*/
     @RolesAllowed({"USER", "ADMIN"})
     @Override
     public Optional<Producto> porId(Long id) {
         return Optional.ofNullable(repository.porId(id));
     }
 
+    /*Guardar solo el role para admin*/
     @RolesAllowed({"ADMIN"})
     @Override
     public void guardar(Producto producto) {
@@ -46,7 +52,7 @@ public class ProductoServiceImpl implements ProductoService {
     public void eliminar(Long id) {
         repository.eliminar(id);
     }
-
+    /* puede ser para usuarios y admisnitradore su role*/
     @RolesAllowed({"USER", "ADMIN"})
     @Override
     public List<Categoria> listarCategorias() {

@@ -4,6 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <!--java autenticacion autorizacion service-->
     <groupId>org.aguzman.webapp.jsf3.primefaces.jaas</groupId>
     <artifactId>webapp-jsf3-jaas</artifactId>
     <version>1</version>
@@ -17,6 +18,10 @@
     </properties>
     <dependencies>
         <dependency>
+          <!--  JAAS no necesita dependencias, porque viene incluido en jakarta.
+            Recuerde que JAAS es una especificacion estandar  de java enterprise edition y de jakarta enterprise.-->
+
+
             <groupId>jakarta.platform</groupId>
             <artifactId>jakarta.jakartaee-api</artifactId>
             <version>9.0.0</version>
