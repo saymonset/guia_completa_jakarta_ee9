@@ -21,17 +21,26 @@
     <welcome-file-list>
         <welcome-file>/index.jsf</welcome-file>
     </welcome-file-list>
+
+    <!--Configuramos nuestra aplicacion JSF con este sistema de autenticacion-->
     <login-config>
+        hay diferentes tipos.
+        <!--BASIC:Un tipo basico que nos muestra un popup arriba para ingresar usuario y contrasena-->
         <auth-method>BASIC</auth-method>
+        <!--Enwildfly para los usuarios se usan ApplicationRealm-->
+        <!--Realm significa reino y es un dominio de politica de seguridad que se define en el servidor, en este caso wildfly-->
         <realm-name>ApplicationRealm</realm-name>
     </login-config>
 
     <!--Configuramos nuestra aplicacion JSF con este sistema de autenticacion-->
     <security-constraint>
         <web-resource-collection>
+            <!--aca colocamos el nombre que queramos-->
             <web-resource-name>webapp-jsf3-jaas</web-resource-name>
+            <!--aqui protegemos todas  las rutas-->
             <url-pattern>/*</url-pattern>
         </web-resource-collection>
+        <!--aqui especificamos los roles-->
         <auth-constraint>
             <role-name>USER</role-name>
             <role-name>ADMIN</role-name>
