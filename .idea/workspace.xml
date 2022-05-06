@@ -1194,15 +1194,15 @@
       <workItem from="1651496731805" duration="8170000" />
       <workItem from="1651574074376" duration="13371000" />
       <workItem from="1651654639435" duration="615000" />
-      <workItem from="1651746086939" duration="6267000" />
+      <workItem from="1651746086939" duration="6914000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94790000" />
+    <option name="totallyTimeSpent" value="95437000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="526" y="-18" width="3332" height="2196" extended-state="6" />
+    <frame x="526" y="-18" width="3332" height="2196" extended-state="7" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32981676" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1579,7 +1579,7 @@
         <state relative-caret-position="1169">
           <caret line="45" column="30" lean-forward="true" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
