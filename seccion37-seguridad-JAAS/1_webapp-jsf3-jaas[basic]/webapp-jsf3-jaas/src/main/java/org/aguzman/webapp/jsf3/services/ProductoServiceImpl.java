@@ -31,7 +31,13 @@ public class ProductoServiceImpl implements ProductoService {
         return repository.listar();
     }
 
-
+    /*En el minuto 9.25, explica el archivo de wildfly add-user.bat*/
+    /*Las diferentes opciones de a y b*/
+    /*
+    * a) Managment User (mgmt-users.properties) Es para administrar la consola de widfly
+    * b)Application User (application-users.properties) que son los usuarios de laaplicacion
+    * que aplica a @PermitAll, @DeclareRoles({"USER", "ADMIN"}) etc...
+    * */
     /*Protegido por JAAS*/
     /*Por id puede ser para usuarios y admisnitradore su role*/
     @RolesAllowed({"USER", "ADMIN"})
