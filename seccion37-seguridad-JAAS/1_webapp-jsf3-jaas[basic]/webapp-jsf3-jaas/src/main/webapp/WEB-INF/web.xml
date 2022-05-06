@@ -25,6 +25,8 @@
         <auth-method>BASIC</auth-method>
         <realm-name>ApplicationRealm</realm-name>
     </login-config>
+
+    <!--Configuramos nuestra aplicacion JSF con este sistema de autenticacion-->
     <security-constraint>
         <web-resource-collection>
             <web-resource-name>webapp-jsf3-jaas</web-resource-name>
