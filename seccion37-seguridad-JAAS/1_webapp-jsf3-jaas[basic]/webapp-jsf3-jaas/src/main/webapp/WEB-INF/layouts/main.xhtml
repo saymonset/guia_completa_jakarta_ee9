@@ -18,7 +18,11 @@
             <h:form>
                 <p:menubar>
                     <p:menuitem value="#{msg['navbar.texto.inicio']}" outcome="index" icon="pi pi-fw pi-home"/>
+                    <!--Aqui usamos el namespace de primefaces (p) para ver si tiene permiso. p:ifGranted('ADMIN')-->
                     <p:menuitem rendered="#{p:ifGranted('ADMIN')}" value="#{msg['navbar.texto.crear']}" onclick="PF('dialogForm').show()" icon="pi pi-fw pi-plus"/>
+                    <!--Aqui usamos el namespace de primefaces (p) para ver si tiene permiso. p:ifAnyGranted('ADMIN,USER')-->
+                    <!--Cualquiera de loss roles separados por coma ifAnyGranted-->
+
                     <p:menuitem icon="pi pi-fw pi-flag" rendered="#{p:ifAnyGranted('ADMIN,USER')}">
 
                         <p:selectOneMenu value="#{lenguajeController.lenguaje}"
@@ -35,6 +39,7 @@
                 <p:messages globalOnly="true" closable="true">
                     <p:autoUpdate />
                 </p:messages>
+                <!--Aqui usamos el namespace de primefaces (p) para ver si tiene permiso. p:ifGranted('ADMIN')-->
                 <h:outputText value="Bienvenido: #{p:userPrincipal()}" rendered="#{not empty p:userPrincipal()}" />
                 <ui:insert name="content"/>
             </div>
