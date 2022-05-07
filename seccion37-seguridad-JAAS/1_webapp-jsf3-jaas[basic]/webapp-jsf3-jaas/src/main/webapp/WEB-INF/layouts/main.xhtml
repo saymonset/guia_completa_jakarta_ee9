@@ -39,6 +39,8 @@
                 <p:messages globalOnly="true" closable="true">
                     <p:autoUpdate />
                 </p:messages>
+                <!--Tenemos un sistema de seguridad bastante robusto basado en jakarta con la especificacion JAAS
+                y utilizando wildfly impementacion propia de un servidor de aplicaciones-->
                 <!--Aqui usamos el namespace de primefaces (p) para ver si tiene permiso. p:ifGranted('ADMIN')-->
                 <!--Aqui mostramos el nombre de usuario p:userPrincipal() de wildFly-->
                 <h:outputText value="Bienvenido: #{p:userPrincipal()}" rendered="#{not empty p:userPrincipal()}" />

@@ -22,9 +22,12 @@
         <welcome-file>/index.jsf</welcome-file>
     </welcome-file-list>
     <login-config>
+        <!--Aqui en vez de basic , lo colocamos como form-->
         <auth-method>FORM</auth-method>
         <realm-name>ApplicationRealm</realm-name>
+        <!--como es orm, debemos configurar esteform-login-config-->
         <form-login-config>
+            <!--tendremos dos paginas, una de login y la otra de error-->
             <form-login-page>/login.jsf</form-login-page>
             <form-error-page>/loginError.jsf</form-error-page>
         </form-login-config>
@@ -32,17 +35,24 @@
     <security-constraint>
         <web-resource-collection>
             <web-resource-name>webapp-jsf3-jaas</web-resource-name>
+            <!--Aqui restringir a rutas url solo jsf-->
             <url-pattern>*.jsf</url-pattern>
         </web-resource-collection>
+        <!--Cada role que se usa en primefaces aqui senalados
+        y definidos en el wildfly-->
         <auth-constraint>
             <role-name>USER</role-name>
             <role-name>ADMIN</role-name>
         </auth-constraint>
     </security-constraint>
 
+    <!--otra seguridad de constraint-->
     <security-constraint>
         <web-resource-collection>
             <web-resource-name>recursos permitidos</web-resource-name>
+            <!--recursos como hoja de estilos, js, imagenes etc..se
+            restringuen con esta pattron-->
+            <!--Y ES PUBLICO para todos porque no tiene un auth-constraint-->
             <url-pattern>/javax.faces.resource/*</url-pattern>
         </web-resource-collection>
     </security-constraint>

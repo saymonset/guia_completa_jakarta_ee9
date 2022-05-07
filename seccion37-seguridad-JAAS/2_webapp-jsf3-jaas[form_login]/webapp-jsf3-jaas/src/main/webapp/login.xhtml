@@ -6,12 +6,19 @@
                 template="/WEB-INF/layouts/main.xhtml">
 
     <ui:define name="content">
+        <!--El formulario queda incluido en el panel-->
         <p:panel header="Login" rendered="#{p:ifNoneGranted('ADMIN,USER')}">
+            <!--El formulario debe ser comun y corriente como form. Quitamos<h:form-->
+            <!--Todo esto es del framework que maneja por debajo jakarta JAAS j_security_check Y METOODO tipo
+             post y es un filtro que lo maneja java autentication autorirzatiom-->
             <form action="j_security_check" method="post" id="formLogin">
+                <!--Debe tener un actin que apunte a: action="j_security_check" de la especificacion JAAS-->
                 <div class="p-field p-grid">
                     <p:outputLabel value="Username" for="j_username" class="p-col-fixed"
                                    style="width: 200px"/>
                     <div class="p-col">
+                        <!--Minuto 12. j_username es un estandar en seguridad con su prefijo j-->
+                        <!--El value y el label se quita-->
                         <p:inputText id="j_username"/>
                     </div>
                 </div>
@@ -19,12 +26,16 @@
                     <p:outputLabel value="Password" for="j_password" class="p-col-fixed"
                                    style="width: 200px"/>
                     <div class="p-col">
+                        <!--Minuto 12. j_password es un estandar en seguridad con su prefijo j-->
+                        <!--El value y el label se quita-->
                         <p:inputText type="password" id="j_password"/>
                     </div>
                 </div>
 
                 <div class="p-field p-grid">
                     <div class="p-col">
+                        <!--Se usa un button que trabaje como un boton cualquiera sin jsf para JAAS-->
+                        <!--submit() es una funcion de java script-->
                         <p:button onclick="submit()"
                                   value="Login"
                                   class="ui-button-outlined ui-button-success"/>
