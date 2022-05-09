@@ -30,6 +30,7 @@ public class CursoServicioWsImplService
         URL url = null;
         WebServiceException e = null;
         try {
+            /*Aqui nos conectamos al servicio web*/
             url = new URL("http://localhost:8080/webapp-jaxws-jpa-jaas/CursoServicioWsImpl?wsdl");
         } catch (MalformedURLException ex) {
             e = new WebServiceException(ex);

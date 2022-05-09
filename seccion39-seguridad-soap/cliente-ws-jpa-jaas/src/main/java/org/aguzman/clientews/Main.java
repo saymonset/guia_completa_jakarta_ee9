@@ -7,8 +7,11 @@ import org.aguzman.webapp.jaxws.services.CursoServicioWsImplService;
 
 public class Main {
     public static void main(String[] args) {
+        /*Aqui necesitamos invocar este metodo para darles las credenciales
+                ((BindingProvider)service).getRequestContext().*/
         CursoServicioWs service = new CursoServicioWsImplService().getCursoServicioWsImplPort();
 
+        /*Con esto le damos credenciales al SOAP*/
         ((BindingProvider)service).getRequestContext().put(BindingProvider.USERNAME_PROPERTY, "admin");
         ((BindingProvider)service).getRequestContext().put(BindingProvider.PASSWORD_PROPERTY, "12345");
         Curso curso = new Curso();

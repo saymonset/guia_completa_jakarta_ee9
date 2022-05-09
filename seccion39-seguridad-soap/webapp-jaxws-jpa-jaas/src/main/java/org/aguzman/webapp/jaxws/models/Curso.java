@@ -15,6 +15,9 @@ public class Curso {
     private String descripcion;
 
     //@XmlTransient
+    /*Instructor no es un atributo de la tabla.
+    * Con esto  @Transient lo omitimos
+    * */
     @Transient
     private String instructor;
 
