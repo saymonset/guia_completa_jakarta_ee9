@@ -12,35 +12,57 @@
     </servlet-mapping>
 
     <login-config>
+       <!-- Colocamos el tipo de metodo de autenticacion paraque el error de seguridad
+        sea tipo http 401 (No Autenticado) o 403 forbidden(Autenticado pero no autorizado)-->
+        <!--No sale ya por console el error , sale es: (Ejemplo)
+        is secured for some http methods, it is not secure for [trace, head, delete, connect, options, put]-->
         <auth-method>BASIC</auth-method>
+<!--Aqui colocamos el mismo nombre que nos sale en wildfly seleccion a: ApplicationRealm-->
+        <!--Es el reino de seguridad-->
         <realm-name>ApplicationRealm</realm-name>
     </login-config>
 
     <security-constraint>
         <web-resource-collection>
+            <!--Cualquier nombre, y peticiones get pero es caquier nombre-->
             <web-resource-name>jax-rs get</web-resource-name>
+            <!--Aplica a cursos solamente-->
+            <!--este es para listar en get-->
             <url-pattern>/api/cursos</url-pattern>
+            <!--Para el getId PorId es solo get, lo colocamos asi /api/cursos/* para
+            cualquier id-->
+            <!--como pasamos el id y es variable, lo representamos como asterisco-->
             <url-pattern>/api/cursos/*</url-pattern>
+            <!--y aplicamos a solo el metodo GET-->
             <http-method>GET</http-method>
         </web-resource-collection>
         <auth-constraint>
+          <!--  Para los roles de listar, se colocan los que estan configurados en CursoServiceImpl que son
+            @RolesAllowed({"ADMIN", "USER"})-->
+            <!--CursoServiceImpl -> Se reflejan los mismos roles aca-->
             <role-name>USER</role-name>
             <role-name>ADMIN</role-name>
         </auth-constraint>
     </security-constraint>
 
+    <!--Aqui realiza,os otro security-constraint para POST y son unicos, no se pueden repetir en el name-->
     <security-constraint>
         <web-resource-collection>
             <web-resource-name>jax-rs post</web-resource-name>
+            <!--Cuando se llame esta tipo de url y sea post-->
             <url-pattern>/api/cursos</url-pattern>
             <http-method>POST</http-method>
         </web-resource-collection>
+        <!--Tendremos este constraint de solo rol ADMIN-->
         <auth-constraint>
             <role-name>ADMIN</role-name>
         </auth-constraint>
     </security-constraint>
 
     <security-constraint>
+        <!--Cuando se llame esta tipo de url y sea put y delete-->
+        <!--ambos usan la misma ruta url y lo podemos implementar en la misma regla-->
+        <!--como pasamos el id y es variable, lo representamos como asterisco-->
         <web-resource-collection>
             <web-resource-name>jax-rs put delete</web-resource-name>
             <url-pattern>/api/cursos/*</url-pattern>
@@ -48,6 +70,7 @@
             <http-method>DELETE</http-method>
         </web-resource-collection>
         <auth-constraint>
+            <!--put y delete comparten el mismo role-->
             <role-name>ADMIN</role-name>
         </auth-constraint>
     </security-constraint>
