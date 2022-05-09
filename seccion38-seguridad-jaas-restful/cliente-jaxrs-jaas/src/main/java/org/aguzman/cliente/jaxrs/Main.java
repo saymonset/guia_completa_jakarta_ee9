@@ -19,6 +19,9 @@ public class Main {
         Client client = ClientBuilder.newClient();
         WebTarget rootUri = client.target("http://localhost:8080/webapp-jaxrs-jaas/api").path("/cursos");
 
+        /*Aqui nos registramos o logueamos en el cliente para tener los roles configurados en wildfly*/
+
+        /*Cuando no tienes permisos, lanza el error: is not allowed*/
         rootUri.register(new BasicAuthentication("admin", "12345"));
 
         System.out.println("==================== por id");

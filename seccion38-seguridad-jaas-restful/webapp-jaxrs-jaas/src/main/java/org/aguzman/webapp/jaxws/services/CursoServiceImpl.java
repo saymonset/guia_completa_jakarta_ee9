@@ -11,6 +11,7 @@ import java.util.List;
 import java.util.Optional;
 
 @Stateless
+/*Aqui damos seguridad */
 @DeclareRoles({"USER", "ADMIN"})
 public class CursoServiceImpl implements CursoService {
 
@@ -18,6 +19,7 @@ public class CursoServiceImpl implements CursoService {
     private CursoRepository repository;
 
     @Override
+    /*Seguridad a los metodos*/
     @RolesAllowed({"ADMIN", "USER"})
     public List<Curso> listar() {
         return repository.listar();
@@ -25,6 +27,7 @@ public class CursoServiceImpl implements CursoService {
 
     @Override
     @RolesAllowed({"ADMIN"})
+//    Guardar solo para admin
     public Curso guardar(Curso curso) {
         return repository.guardar(curso);
     }
