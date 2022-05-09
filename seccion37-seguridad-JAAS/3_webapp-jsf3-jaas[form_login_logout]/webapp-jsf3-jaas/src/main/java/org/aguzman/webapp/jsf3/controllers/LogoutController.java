@@ -16,8 +16,12 @@ public class LogoutController {
     public String logout() throws ServletException {
 
         HttpServletRequest request = (HttpServletRequest) facesContext.getExternalContext().getRequest();
+        /*Con estos dos 100% cerramos la session*/
+        /*Elimina todo lo que es http  relacionado a autenticacion*/
         request.logout();
+        /*Aseguramos eliminar la session completa que se usa para carritos de compra o sessiones del usuario, eliminarlas*/
         request.getSession().invalidate();
+        /*MENSAJE FLASH*/
         facesContext.addMessage(null, new FacesMessage("Haz cerrado sesión con éxito!"));
         return "login.xhtml";
     }
