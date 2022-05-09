@@ -26,12 +26,17 @@ public class ProductoServiceImpl implements ProductoService {
     @Inject
     private CrudRepository<Categoria> categoriaRepository;
 
+    /*Este es un recurso de wildfly, lo inyectamos con resource*/
     @Resource
     private SessionContext ctx;
 
+    /*Aqui registrimos bajo codigo, sin anotaciones.
+            Protegemos un metodo del ejb que no este anotado, pero lo hacemos
+    la seguridad por codigo*/
     @Override
     @PermitAll
     public List<Producto> listar() {
+        /*Con Principal obtenemos el usuario logueado*/
         Principal usuario = ctx.getCallerPrincipal();
         String username = usuario.getName();
         System.out.println("username: " + username);
@@ -41,6 +46,7 @@ public class ProductoServiceImpl implements ProductoService {
             System.out.println("Hola soy un usuario normal!");
         } else {
             System.out.println("Hola soy un usuario anónimo!");
+            /*Si no tenemos permiso, lanzamos una excepcion*/
 //            throw new SecurityException("Lo sentimos no tienes permisos para acceder a esta página");
         }
         return repository.listar();

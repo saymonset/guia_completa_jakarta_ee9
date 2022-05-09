@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5fd7e7ad-791a-4780-8158-95d0c9a3fb58" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/seccion40-jaas-ejb-remote/appcliente-ejb-jaas/src/main/java/org/aguzman/appejb/remote/Main.java" afterPath="$PROJECT_DIR$/seccion40-jaas-ejb-remote/appcliente-ejb-jaas/src/main/java/org/aguzman/appejb/remote/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/seccion40-jaas-ejb-remote/appcliente-ejb-jaas/src/main/resources/jboss-ejb-client.properties" afterPath="$PROJECT_DIR$/seccion40-jaas-ejb-remote/appcliente-ejb-jaas/src/main/resources/jboss-ejb-client.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/seccion40-jaas-ejb-remote/appejb-remote-jaas/src/main/java/org/aguzman/webapp/ejb/service/ServiceEjb.java" afterPath="$PROJECT_DIR$/seccion40-jaas-ejb-remote/appejb-remote-jaas/src/main/java/org/aguzman/webapp/ejb/service/ServiceEjb.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/seccion-41-jaas-comprobscion-pragmatica/webapp-jsf3-jaas/src/main/java/org/aguzman/webapp/jsf3/services/ProductoServiceImpl.java" afterPath="$PROJECT_DIR$/seccion-41-jaas-comprobscion-pragmatica/webapp-jsf3-jaas/src/main/java/org/aguzman/webapp/jsf3/services/ProductoServiceImpl.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,32 +15,14 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/seccion40-jaas-ejb-remote/appcliente-ejb-jaas/pom.xml">
+      <file leaf-file-name="ProductoServiceImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/seccion-41-jaas-comprobscion-pragmatica/webapp-jsf3-jaas/src/main/java/org/aguzman/webapp/jsf3/services/ProductoServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/seccion40-jaas-ejb-remote/appcliente-ejb-jaas/src/main/java/org/aguzman/appejb/remote/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1232">
-              <caret line="31" column="59" lean-forward="false" selection-start-line="31" selection-start-column="59" selection-end-line="31" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jboss-ejb-client.properties" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/seccion40-jaas-ejb-remote/appcliente-ejb-jaas/src/main/resources/jboss-ejb-client.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="728">
-              <caret line="13" column="84" lean-forward="false" selection-start-line="13" selection-start-column="84" selection-end-line="13" selection-end-column="84" />
-              <folding />
+            <state relative-caret-position="1008">
+              <caret line="48" column="14" lean-forward="false" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -94,7 +74,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/seccion31-jsf3-formulario-f-viewparam/6_webapp-jsf3[form_validation_css_bootstrap]/src/main/java/org/aguzman/webapp/jsf3/converters/CategoriaConverter.java" />
         <option value="$PROJECT_DIR$/seccion31-jsf3-formulario-f-viewparam/6_webapp-jsf3[form_validation_css_bootstrap]/src/main/webapp/form.xhtml" />
         <option value="$PROJECT_DIR$/seccion31-jsf3-formulario-f-viewparam/6_webapp-jsf3[form_validation_css_bootstrap]/src/main/java/org/aguzman/webapp/jsf3/entities/Producto.java" />
         <option value="$PROJECT_DIR$/seccion32-styless_css_template/7_webapp-jsf3[layouts]/src/main/webapp/form.xhtml" />
@@ -145,6 +124,7 @@
         <option value="$PROJECT_DIR$/seccion40-jaas-ejb-remote/appejb-remote-jaas/src/main/java/org/aguzman/webapp/ejb/service/ServiceEjb.java" />
         <option value="$PROJECT_DIR$/seccion40-jaas-ejb-remote/appcliente-ejb-jaas/src/main/java/org/aguzman/appejb/remote/Main.java" />
         <option value="$PROJECT_DIR$/seccion40-jaas-ejb-remote/appcliente-ejb-jaas/src/main/resources/jboss-ejb-client.properties" />
+        <option value="$PROJECT_DIR$/seccion-41-jaas-comprobscion-pragmatica/webapp-jsf3-jaas/src/main/java/org/aguzman/webapp/jsf3/services/ProductoServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -198,7 +178,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="seccion40-jaas-ejb-remote" />
+              <option name="myItemId" value="seccion-41-jaas-comprobscion-pragmatica" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp-jsf3-jaas" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -212,29 +196,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="seccion40-jaas-ejb-remote" />
+              <option name="myItemId" value="seccion-41-jaas-comprobscion-pragmatica" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="appcliente-ejb-jaas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="guia_completa_jakarta_ee9" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="guia_completa_jakarta_ee9" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="seccion40-jaas-ejb-remote" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="appcliente-ejb-jaas" />
+              <option name="myItemId" value="webapp-jsf3-jaas" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -252,11 +218,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="seccion40-jaas-ejb-remote" />
+              <option name="myItemId" value="seccion-41-jaas-comprobscion-pragmatica" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="appcliente-ejb-jaas" />
+              <option name="myItemId" value="webapp-jsf3-jaas" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -267,10 +233,6 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -282,11 +244,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="seccion40-jaas-ejb-remote" />
+              <option name="myItemId" value="seccion-41-jaas-comprobscion-pragmatica" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="appcliente-ejb-jaas" />
+              <option name="myItemId" value="webapp-jsf3-jaas" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -310,11 +272,61 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="appejb" />
+              <option name="myItemId" value="webapp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="remote" />
+              <option name="myItemId" value="jsf3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guia_completa_jakarta_ee9" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guia_completa_jakarta_ee9" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="seccion-41-jaas-comprobscion-pragmatica" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp-jsf3-jaas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aguzman" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsf3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="services" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -773,15 +785,16 @@
       <workItem from="1651746086939" duration="6914000" />
       <workItem from="1651828371448" duration="9128000" />
       <workItem from="1651919983043" duration="4209000" />
-      <workItem from="1652089163630" duration="7903000" />
+      <workItem from="1652089163630" duration="9501000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116677000" />
+    <option name="totallyTimeSpent" value="118275000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="526" y="-18" width="3332" height="2196" extended-state="0" />
+    <frame x="526" y="-18" width="3332" height="2196" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32981676" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -794,7 +807,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32981676" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43864518" sideWeight="0.49783424" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41588005" sideWeight="0.4965278" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41588005" sideWeight="0.4965278" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3909491" sideWeight="0.48509935" order="9" side_tool="false" content_ui="combo" />
@@ -835,13 +848,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/seccion35-soap/webapp-jaxws/src/main/java/org/aguzman/webapp/jaxws/services/ServicioWs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/seccion35-soap/webapp-jaxws/src/main/java/org/aguzman/webapp/jaxws/services/ServicioWsImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2007">
@@ -1212,6 +1218,16 @@
         <state relative-caret-position="728">
           <caret line="13" column="84" lean-forward="false" selection-start-line="13" selection-start-column="84" selection-end-line="13" selection-end-column="84" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seccion-41-jaas-comprobscion-pragmatica/webapp-jsf3-jaas/src/main/java/org/aguzman/webapp/jsf3/services/ProductoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1008">
+          <caret line="48" column="14" lean-forward="false" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
