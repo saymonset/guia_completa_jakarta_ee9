@@ -9,12 +9,14 @@ import org.aguzman.webapp.ejb.models.Producto;
 import java.util.ArrayList;
 import java.util.List;
 
+/*Colocamos los roles*/
 @DeclareRoles({"ADMIN", "USER"})
 @Stateful
 public class ServiceEjb implements ServiceEjbRemote {
 
     private int contador;
 
+    /*Protegemos los metodos*/
     @RolesAllowed({"USER", "ADMIN"})
     public String saludar(String nombre) {
         System.out.println("imprimiendo dentro del ejb con instancia: " + this);
@@ -23,6 +25,7 @@ public class ServiceEjb implements ServiceEjbRemote {
         return "Hola que tal " + nombre;
     }
 
+    /*Protegemos los metodos*/
     @RolesAllowed({"USER", "ADMIN"})
     @Override
     public List<Producto> listar() {
@@ -33,6 +36,7 @@ public class ServiceEjb implements ServiceEjbRemote {
         return productos;
     }
 
+    /*Protegemos los metodos*/
     @RolesAllowed({"ADMIN"})
     @Override
     public Producto crear(Producto producto) {
